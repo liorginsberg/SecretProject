@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>eBayPlus Home</title>
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/settings.js"></script>
+<script type="text/javascript" src="js/accounts.js"></script>
+<script type="text/javascript" src="js/spectrum.js"></script>
+
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/accounts.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/settings.css" rel="stylesheet" type="text/css" />
+<link href="css/spectrum.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.png" type="image/png">
+<script type="text/javascript">
+
+$(document).ready(function(e) {
+    $(".basic").spectrum({
+   		 color: "#f00",
+   		 change: function(color) {
+        
+    	}
+	});
+});
+	
+		
+
+</script>
+</head>
+<body>
+<div id="container">
+    <div id="app_header"> <img id="header_logo" src="images/logo.png"/> </div>
+    <div id="nav_container">
+        <table id="nav_table_debug" align="center">
+            <tr>
+                <td class="nav_menu_item selected_menu_item" id="nav_item_messages"><img src="images/ic_mail.png" class="nav_icon"/> <span class="nav_title">Messages</span></td>
+                <td class="nav_menu_item" id="nav_item_analytics"><img src="images/ic_analytics.png" class="nav_icon"/> <span class="nav_title">Analytics</span></td>
+                <td class="nav_menu_item" id="nav_item_shipping"><img src="images/ic_shipping.png" class="nav_icon"/> <span class="nav_title">Shipping</span></td>
+                <td class="nav_menu_item" id="nav_item_accounts"><img src="images/ic_accounts.png" class="nav_icon"/> <span class="nav_title">Accounts</span></td>
+                <td class="nav_menu_item" id="nav_item_settings"><img src="images/ic_settings.png" class="nav_icon"/> <span class="nav_title">Settings</span></td>
+            </tr>
+        </table>
+    </div>
+    <div id="content"> 
+        <!-- Account contetnt template-->
+        
+        <div id="settings_side_menu">
+            <div id="cssmenu">
+                <ul>
+                    <li class="active"><a href="#"><span>Home</span></a> </li>
+                    <li> <a href="#"><span>Products</span></a> </li>
+                    <li> <a href="#"><span>About</span></a> </li>
+                    <li class="last"> <a href="#"><span>Contact</span></a> </li>
+                </ul>
+            </div>
+        </div>
+        <div id="settings_content">
+            <div class="setting_component">
+                <div class="settings_header">Notificatsion Settings </div>
+                <div class="setting_content first_content">
+                	<table style="width:85%">
+                        <tr>
+                            <td>Account Name:</td>
+                            <td>diddlydeal</td>
+                        </tr>
+                         <tr>
+                            <td>Administrator:</td>
+                            <td>ziv.gin@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>Lable Color:</td>
+                            <td><input type="text" class="basic"/></td>
+                        </tr>
+                         <tr>
+                            <td>Status:</td>
+                            <td>Waiting For Activation</td>
+                            <td><a href="#">Activate</td>
+                        </tr>
+                         <tr>
+                            <td>Field1:</td>
+                            <td></td>
+                        </tr>
+                         <tr>
+                            <td>Field1:</td>
+                            <td></td>
+                        </tr>
+                         <tr>
+                            <td>Field1:</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+              
+            </div>
+         
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div id="overlay"> </div>
+</body>
+</html>

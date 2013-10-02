@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>eBayPlus</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MainServlet</display-name>
+    <servlet-name>MainServlet</servlet-name>
+    <servlet-class>com.ebayplus.webapp.seervlets.MainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MainServlet</servlet-name>
+    <url-pattern>/MainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ContentLoaderServlet</display-name>
+    <servlet-name>ContentLoaderServlet</servlet-name>
+    <servlet-class>com.ebayplus.webapp.servlets.ContentLoaderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContentLoaderServlet</servlet-name>
+    <url-pattern>/ContentLoaderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CredentialsServlet</display-name>
+    <servlet-name>CredentialsServlet</servlet-name>
+    <servlet-class>com.ebayplus.webapp.servlets.CredentialsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CredentialsServlet</servlet-name>
+    <url-pattern>/CredentialsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FetchTokensServlet</display-name>
+    <servlet-name>FetchTokensServlet</servlet-name>
+    <servlet-class>com.ebayplus.webapp.servlets.FetchTokensServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FetchTokensServlet</servlet-name>
+    <url-pattern>/FetchTokensServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

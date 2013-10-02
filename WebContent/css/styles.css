@@ -1,0 +1,92 @@
+/* CSS for Vertical Menu */
+#cssmenu {
+  padding: 0;
+  margin-top:5px;
+  border: 0;
+}
+#cssmenu ul,
+#cssmenu li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul {
+  position: relative;
+  z-index: 597;
+  background-color: #EDFAFC;
+ 
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+#cssmenu ul li {
+  min-height: 1px;
+  line-height: 1em;
+}
+#cssmenu a {
+  display: block;
+  text-decoration: none;
+}
+/* Custom CSS Styles */
+#cssmenu {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  width: 248px;
+}
+
+  
+
+#cssmenu li {
+  border-bottom: 1px solid #CCC;
+  -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
+  box-shadow: 0 1px 0 white;
+  padding: 1px;
+}
+#cssmenu li:last-child,
+#cssmenu li.last {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 0 none;
+}
+#cssmenu li.active {
+  -moz-box-shadow: 1px 2px 0 -1px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 2px 0 -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 2px 0 -1px rgba(0, 0, 0, 0.25);
+ 
+  background:#20BDD5;
+  position: relative;
+  left: 0;
+  width: 260px;
+}
+#cssmenu li.active a {
+ 
+  position: relative;
+  color: #FFF;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+#cssmenu li.active:before,
+#cssmenu li.active:after {
+  content: '';
+}
+
+#cssmenu li.active:after {
+
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 23px;
+border-color: transparent transparent transparent #20BDD5;
+top: 0;
+right: -46px;
+}
+#cssmenu a {
+  border: 1px solid transparent;
+  color: #444;
+  height: 42px;
+  line-height: 40px;
+ 
+  text-align: center;
+  text-overflow: ellipsis;
+}
