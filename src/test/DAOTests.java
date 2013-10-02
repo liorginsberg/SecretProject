@@ -3,14 +3,16 @@ package test;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNotSame;
 
+import java.util.Date;
+import java.util.List;
+
 import org.hibernate.exception.ConstraintViolationException;
-import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.ebayplus.webapp.hibernate.DBManager;
 import com.ebayplus.webapp.hibernate.dao.AccountsDAO;
 import com.ebayplus.webapp.hibernate.entities.Account;
+import com.ebayplus.webapp.hibernate.entities.EbayPlusAccount;
 
 public class DAOTests {
 
@@ -36,70 +38,110 @@ public class DAOTests {
 		account.setPassword("testpass");
 		
 		int accountID = accountDao.addAccount(account);
-		
-		assertNotSame("Got -1 after adding account", -1, accountID);
-		
-		Account accountFromDb = null;
-		accountFromDb = accountDao.getAccountByID(accountID);
-		
-		assertNotNull("could not retrive account with accountID = " + accountID, accountFromDb);
-			
+		accountDao.deleteAccount(accountID);
 	}
 	
-	@Test(expected = ConstraintViolationException.class)
-	public void addAccountWithTheSameUserName() {
+	@Test
+	public void addAccountWithEbayAccount() {
+		Account account = new Account();
+		account.setUsername("test");
+		account.setPassword("testpass");
+		
+		EbayPlusAccount ebayPlusAccount = new EbayPlusAccount();
+		ebayPlusAccount.setAccountAlias("liorAlias");
+		ebayPlusAccount.setAccountColor("red");
+		ebayPlusAccount.setAccountAdmin("zivGin@gmail.com");
+		ebayPlusAccount.setAccountName("my name");
+		ebayPlusAccount.setAccountSession_exp(new Date());
+		
+		account.getEbayPlusAccounts().add(ebayPlusAccount);
+		
+		int accountID = accountDao.addAccount(account);
+		accountDao.deleteAccount(accountID);
+	}
+	
+	@Test
+	public void updateAccount() {
+		Account account = new Account();
+		account.setUsername("test");
+		account.setPassword("testpass");
+		int accountID = accountDao.addAccount(account);
+		
+		account.setPassword("newPass");
+		accountDao.updateAccount(account);
+		
+		accountDao.deleteAccount(accountID);
+	}
+	
+	@Test
+	public void getAccountByID() {
+		Account account = new Account();
+		account.setUsername("test");
+		account.setPassword("testpass");
+		
+		
+		int accountID = accountDao.addAccount(account);
+
+		Account fromDB = accountDao.getAccountById(accountID);
+		
+		System.out.println(fromDB.getAccountID() + ") " + fromDB.getUsername() + ", " + fromDB.getPassword());
+		
+		accountDao.deleteAccount(accountID);
+	}
+	
+	@Test
+	public void getAllAccounts () {
+		List<Account> accounts = null;
 		
 		Account account1 = new Account();
-		account1.setUsername("test");
+		account1.setUsername("test1");
 		account1.setPassword("testpass");
-		
-		Account account2 = new Account();
-		account2.setUsername("test");
-		account2.setPassword("testpass");
-		
-		accountDao.addAccount(account1);		
-		accountDao.addAccount(account2);
-		
-		
-	}
-	
-}
-
-/**
- * EbayPlusAccount ebayPlusAccount = new EbayPlusAccount();
-		ebayPlusAccount.setAccountAdmin("lior4@gmail.com");
-		ebayPlusAccount.setAccountAlias("lioralias4");
-		ebayPlusAccount.setAccountColor("red4");
-		ebayPlusAccount1.setAccountToken(token);
-		account1.getEbayPlusAccounts().add(ebayPlusAccount1);
-		
-		EbayPlusAccount ebayPlusAccount2 = new EbayPlusAccount();
-		ebayPlusAccount2.setAccountAdmin("lior5@gmail.com");
-		ebayPlusAccount2.setAccountAlias("lioralias5");
-		ebayPlusAccount2.setAccountColor("red");
-		ebayPlusAccount2.setAccountToken(token);
-		account1.getEbayPlusAccounts().add(ebayPlusAccount2);
-		
-		EbayPlusAccount ebayPlusAccount3 = new EbayPlusAccount();
-		ebayPlusAccount3.setAccountAdmin("lior6@gmail.com");
-		ebayPlusAccount3.setAccountAlias("lioralias6");
-		ebayPlusAccount3.setAccountColor("red6");
-		ebayPlusAccount3.setAccountToken(token);
-		account1.getEbayPlusAccounts().add(ebayPlusAccount3);
-		
-		
 		accountDao.addAccount(account1);
 		
-		Account account = accountDao.getAccountByID(1);
-		System.out.println(account.getUsername());
+		Account account2 = new Account();
+		account2.setUsername("test2");
+		account2.setPassword("testpass");
+		accountDao.addAccount(account2);
 		
-		System.out.println("before insert" + token.length());
-		List<EbayPlusAccount> accounts = account.getEbayPlusAccounts();
-		if(accounts != null) {
-			for(EbayPlusAccount ebayPlusAccount : accounts) {
-				System.out.println("size after getAccount" + ebayPlusAccount.getAccountToken().length());
-			}
-		} else {
-			System.out.println("need init");
+		Account account3 = new Account();
+		account3.setUsername("test3");
+		account3.setPassword("testpass");
+		accountDao.addAccount(account3);
+		
+		accounts = accountDao.getAllAccounts();
+		
+		for(Account account: accounts) {
+			System.out.println(account.getAccountID() + ")" + account.getUsername() + ", " + account.getPassword());
 		}
- */
+		
+		for(Account account: accounts) {
+			accountDao.deleteAccount(account.getAccountID());
+		}
+	}
+	
+	@Test
+	public void updaeteEbayPlusAccount() {
+		Account account = new Account();
+		account.setUsername("test");
+		account.setPassword("testpass");
+		
+		EbayPlusAccount ebayPlusAccount = new EbayPlusAccount();
+		ebayPlusAccount.setAccountAlias("liorAlias");
+		ebayPlusAccount.setAccountColor("red");
+		ebayPlusAccount.setAccountAdmin("zivGin@gmail.com");
+		ebayPlusAccount.setAccountName("my name");
+		ebayPlusAccount.setAccountSession_exp(new Date());
+		
+		account.getEbayPlusAccounts().add(ebayPlusAccount);
+		
+		int accountID = accountDao.addAccount(account);
+		
+		Account accountFromDB = accountDao.getAccountById(accountID);
+		EbayPlusAccount ebayPlusAccountfromDB = accountFromDB.getEbayPlusAccounts().get(0);
+		ebayPlusAccountfromDB.setAccountColor("Green");
+		accountDao.updateAccount(accountFromDB);
+		
+		accountDao.deleteAccount(accountID);
+		
+	}
+}

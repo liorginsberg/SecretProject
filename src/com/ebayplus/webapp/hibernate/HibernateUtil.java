@@ -16,7 +16,7 @@ public class HibernateUtil {
 	private static SessionFactory sessionFactory = null;
 
 	// static method to obtain the same sessionfactory
-	static public SessionFactory getSassionFactory()
+	static public SessionFactory getSessionFactory()
 	{
 		if(sessionFactory==null)
 		{
