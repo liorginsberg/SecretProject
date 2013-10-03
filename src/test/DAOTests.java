@@ -1,12 +1,8 @@
 package test;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNotSame;
-
 import java.util.Date;
 import java.util.List;
 
-import org.hibernate.exception.ConstraintViolationException;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -17,6 +13,8 @@ import com.ebayplus.webapp.hibernate.entities.EbayPlusAccount;
 public class DAOTests {
 
 	private static AccountsDAO accountDao;
+	
+	//auto generated not real (NOT)
 	private static final String token = "AgAAAA**AQAAAA**aAAAAA**OZcZUg**nY+sHZ2PrBmdj6wVnY+sEZ2PrA2dj6wFk4GhCpiAqQSdj6x9nY+seQ**n1ECAA**AAMAAA**c+YkTRAUnTj8LVGn/9sIsRiQyjMih2fT7P6QPe8O5l8jlZBeCCyfBw1RXWGy0wzCJunv3m9dDK8z2vxuks2xBYZ5w6UTXhs+DbRU9cXmERiZNfEP6mSJ1eX1eCYqcixGU80h92rKvGT3gfH/RVSua47pwe35cBQXXZF4QwaKY8PeLlu9Ib1bMtJMKIXrsC/U9WOAptg+U3V/6KmKy2VEX+j8RdTDNVXzPoYXFLZ+A/pIDs7EwCwBpdSRbiwx7c9JRGJNSnbCDfYt8Uogu+YHkGGrTWoJPaq//wDKuGzIyYEm6d+95T8xf3xnGFTaHvaAxRkEMO0jJxgZ+G1Q1X5U++6rf1QMZ9YUCLg3b8n/Wfd3I5DTMM8BWuGcRQK/J8IZdEuv9gnbvKBXq+WeLkARBe/Yflid1D4ttlbrrpSWEomu9rsweYtFUvTKvCwUSJteXa8Djixl2bb7G8upSjxXbCStVEdsxOdo1UZ9GC8HgyqYXS6nfPT5RSdehqZI1QaLVxKhi8nlGFPfnf7MuM+CDK7iNjo/47U26VFB59a4H5JGge+RoIavxrgWGXql09xTWCIhMdWnUgMtrgPRh5mwwlYUx3ie3cI6+6LmdfiauffylyMVW6ZvNACSZokHYsLRmAz5ZRwiaLYtXH28Q+IzGWgve6fpNqiWXjwNSQs9iOUIVxkh6w0J/d6gpJJY+5FpSdk48zvPUOvYJYINiqJopp/dNskVxGWVMZcjqFbWsB9YSd4WJoqbUcaAnWYcQ99m";
 	
 	@BeforeClass

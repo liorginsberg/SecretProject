@@ -76,3 +76,67 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b9db1', end
 	box-shadow: inset 0 0 18px #000000;
 	-moz-box-shadow: inset 0;
 }
+
+/*         new       */
+
+#accountsContent {
+	background: #105E6A;
+	overflow: hidden;
+	border-right: 1px solid #999;
+	height: auto;
+	overflow: hidden;
+	box-shadow: inset 0 0 18px #000000;
+	-moz-box-shadow: inset 0;
+}
+
+.accountItem {
+	overflow: hidden;
+	margin-top: 30px;
+	margin: auto;
+	margin-top: 40px;
+	width: 85%;
+	border: 1px solid #999;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	-webkit-box-shadow: -2px -2px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: -2px -2px 5px rgba(50, 50, 50, 0.75);
+	box-shadow: -2px -2px 5px rgba(50, 50, 50, 0.75);
+	background: white;
+}
+
+.accountHeader {
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#a3ff9c', endColorstr = '#77ff61');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#a3ff9c', endColorstr = '#77ff61')";
+	background: #b8ecf4; /* Old browsers */
+	background: -moz-linear-gradient(top, #b8ecf4 0%, #95e3ef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b8ecf4), color-stop(100%, #95e3ef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b8ecf4 0%, #95e3ef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b8ecf4 0%, #95e3ef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b8ecf4 0%, #95e3ef 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #b8ecf4 0%, #95e3ef 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8ecf4', endColorstr='#95e3ef', GradientType=0 ); /* IE6-9 */
+	padding-left: 30px;
+	height: 30px;
+
+	line-height: 30px;
+	vertical-align: middle;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+#accountsActionMenu {
+	background: black;
+	padding: 20px;
+	float: left;
+	width: 250px;
+	height: 400px;
+}
+
+.accountsAction {
+	width: 90%;
+	background: #444444;
+	height: 60px;
+	border-bottom: 1px solid #FFFFFF;
+}

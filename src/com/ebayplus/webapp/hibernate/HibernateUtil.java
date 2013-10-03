@@ -30,7 +30,7 @@ public class HibernateUtil {
 			config.configure();
 			
 			//this part of the code makes it easy to recreate the database with the right schema
-			new SchemaExport(config).create(true, true);
+			//new SchemaExport(config).create(true, true);
 			
 			
 			sessionFactory = config.buildSessionFactory();

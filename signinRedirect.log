@@ -17254,3 +17254,2182 @@ com.ebayplus.webapp.hibernate.entities.Account{accountID=1, username=test, ebayP
 [DEBUG] 2013-10-02 17:58:45,875
 aggressively releasing JDBC connection
 
+[INFO ] 2013-10-03 10:52:35,456
+Hibernate Annotations 3.4.0.GA
+
+[INFO ] 2013-10-03 10:52:35,477
+Hibernate 3.3.2.GA
+
+[INFO ] 2013-10-03 10:52:35,480
+hibernate.properties not found
+
+[INFO ] 2013-10-03 10:52:35,484
+Bytecode provider name : javassist
+
+[INFO ] 2013-10-03 10:52:35,489
+using JDK 1.4 java.sql.Timestamp handling
+
+[INFO ] 2013-10-03 10:52:35,733
+Hibernate Commons Annotations 3.1.0.GA
+
+[INFO ] 2013-10-03 10:52:35,748
+configuring from resource: /hibernate.cfg.xml
+
+[INFO ] 2013-10-03 10:52:35,748
+Configuration resource: /hibernate.cfg.xml
+
+[DEBUG] 2013-10-03 10:52:35,911
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+
+[DEBUG] 2013-10-03 10:52:35,911
+recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+
+[DEBUG] 2013-10-03 10:52:35,913
+located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+
+[DEBUG] 2013-10-03 10:52:35,943
+connection.driver_class=com.mysql.jdbc.Driver
+
+[DEBUG] 2013-10-03 10:52:35,944
+connection.url=jdbc:mysql://localhost:3306/ebayplus
+
+[DEBUG] 2013-10-03 10:52:35,944
+connection.username=root
+
+[DEBUG] 2013-10-03 10:52:35,944
+connection.password=
+
+[DEBUG] 2013-10-03 10:52:35,944
+dialect=org.hibernate.dialect.MySQLDialect
+
+[DEBUG] 2013-10-03 10:52:35,944
+current_session_context_class=thread
+
+[DEBUG] 2013-10-03 10:52:35,944
+cache.provider_class=org.hibernate.cache.NoCacheProvider
+
+[DEBUG] 2013-10-03 10:52:35,944
+show_sql=false
+
+[DEBUG] 2013-10-03 10:52:35,944
+hbm2ddl.auto=create
+
+[INFO ] 2013-10-03 10:52:35,945
+Configured SessionFactory: null
+
+[DEBUG] 2013-10-03 10:52:35,957
+properties: {show_sql=false, java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/ebayplus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hbm2ddl.auto=create, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes, user.country.format=IL, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_03-b05, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, user.name=lior.ginsberg, user.language.format=he, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, user.language=en, sun.boot.library.path=C:\Program Files\Java\jre7\bin, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.7.0_03, user.timezone=Europe/Athens, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jre7\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1255, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=US, connection.url=jdbc:mysql://localhost:3306/ebayplus, java.home=C:\Program Files\Java\jre7, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=, java.vm.version=22.1-b02, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.script=, user.home=C:\Users\lior.ginsberg, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=create, java.library.path=C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Apache\apache-maven-3.0.4-bin\apache-maven-3.0.4\\bin;C:\Users\daniel-s\android-sdks\tools;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 51663 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test test.DAOTests:addAccountWithEbayAccount, java.class.path=C:\git_local\SecretProject\build\classes;C:\git_local\SecretProject\WebContent\WEB-INF\lib\FastInfoset.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\activation.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\antlr-2.7.6.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\attributes.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\cglib-2.2.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\commons-collections-3.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ebaycalls.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ebaysdkcore.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ejb3-persistence.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\helper.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate-annotations.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate-commons-annotations.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate3.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\http.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jakarta-oro-2.0.8.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\javassist-3.9.0.GA.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-impl.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-xjc.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-rt.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-tools.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr173_api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr181-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr250-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jta-1.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\log4j-1.2.16.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\mimepull.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\mysql-connector-java-5.1.18-bin.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\resolver.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\saaj-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\saaj-impl.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\serializer.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\sjsxp.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\slf4j-api-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\slf4j-log4j12-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\stax-ex.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\streambuffer.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\xalan.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\annotations-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-ant.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-ha.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-tribes.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\ecj-4.2.2.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\el-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jasper-el.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jasper.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jsp-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\servlet-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-coyote.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-dbcp.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-es.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-fr.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-ja.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-jdbc.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-util.jar;C:\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;C:\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;/C:/eclipse/configuration/org.eclipse.osgi/bundles/358/1/.cp/;/C:/eclipse/configuration/org.eclipse.osgi/bundles/357/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\LIOR~1.GIN\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\git_local\SecretProject, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, cache.provider_class=org.hibernate.cache.NoCacheProvider, file.encoding=Cp1255, java.specification.version=1.7, hibernate.show_sql=false}
+
+[INFO ] 2013-10-03 10:52:35,986
+Using dialect: org.hibernate.dialect.MySQLDialect
+
+[DEBUG] 2013-10-03 10:52:36,041
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:52:36,086
+Process hbm files
+
+[DEBUG] 2013-10-03 10:52:36,086
+Process annotated classes
+
+[INFO ] 2013-10-03 10:52:36,091
+Binding entity from annotated class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:52:36,114
+Binding column DTYPE. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:52:36,132
+Import with entity name Account
+
+[INFO ] 2013-10-03 10:52:36,135
+Bind entity com.ebayplus.webapp.hibernate.entities.Account on table accounts
+
+[DEBUG] 2013-10-03 10:52:36,143
+Processing com.ebayplus.webapp.hibernate.entities.Account property annotation
+
+[DEBUG] 2013-10-03 10:52:36,163
+Processing com.ebayplus.webapp.hibernate.entities.Account field annotation
+
+[DEBUG] 2013-10-03 10:52:36,203
+Processing annotations of com.ebayplus.webapp.hibernate.entities.Account.accountID
+
+[DEBUG] 2013-10-03 10:52:36,218
+Binding column accountID. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:52:36,218
+accountID is an id
+
+[DEBUG] 2013-10-03 10:52:36,224
+building SimpleValue for accountID
+
+[DEBUG] 2013-10-03 10:52:36,228
+Building property accountID
+
+[DEBUG] 2013-10-03 10:52:36,234
+Bind @Id on accountID
+
+[DEBUG] 2013-10-03 10:52:36,236
+Processing annotations of com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:52:36,239
+Binding column null. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,239
+Binding column ebayPlusAccounts. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,242
+Binding column null. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,289
+Binding column element. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,291
+Binding column mapkey. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,292
+Binding column null. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,294
+Binding column null. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:52:36,294
+Binding column null. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:52:36,295
+Collection role: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:52:36,309
+Building property ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:52:36,309
+Processing annotations of com.ebayplus.webapp.hibernate.entities.Account.password
+
+[DEBUG] 2013-10-03 10:52:36,309
+Binding column password. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,311
+binding property password with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,311
+building SimpleValue for password
+
+[DEBUG] 2013-10-03 10:52:36,311
+Building property password
+
+[DEBUG] 2013-10-03 10:52:36,311
+Processing annotations of com.ebayplus.webapp.hibernate.entities.Account.username
+
+[DEBUG] 2013-10-03 10:52:36,312
+Binding column username. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,312
+binding property username with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,312
+building SimpleValue for username
+
+[DEBUG] 2013-10-03 10:52:36,312
+Building property username
+
+[INFO ] 2013-10-03 10:52:36,316
+Binding entity from annotated class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[DEBUG] 2013-10-03 10:52:36,316
+Binding column DTYPE. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:52:36,316
+Import with entity name EbayPlusAccount
+
+[INFO ] 2013-10-03 10:52:36,316
+Bind entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount on table ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:52:36,316
+Processing com.ebayplus.webapp.hibernate.entities.EbayPlusAccount property annotation
+
+[DEBUG] 2013-10-03 10:52:36,317
+Processing com.ebayplus.webapp.hibernate.entities.EbayPlusAccount field annotation
+
+[DEBUG] 2013-10-03 10:52:36,321
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountID
+
+[DEBUG] 2013-10-03 10:52:36,322
+Binding column accountID. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:52:36,322
+accountID is an id
+
+[DEBUG] 2013-10-03 10:52:36,322
+building SimpleValue for accountID
+
+[DEBUG] 2013-10-03 10:52:36,322
+Building property accountID
+
+[DEBUG] 2013-10-03 10:52:36,322
+Bind @Id on accountID
+
+[DEBUG] 2013-10-03 10:52:36,322
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountAdmin
+
+[DEBUG] 2013-10-03 10:52:36,322
+Binding column accountAdmin. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,322
+binding property accountAdmin with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,322
+building SimpleValue for accountAdmin
+
+[DEBUG] 2013-10-03 10:52:36,322
+Building property accountAdmin
+
+[DEBUG] 2013-10-03 10:52:36,322
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountAlias
+
+[DEBUG] 2013-10-03 10:52:36,323
+Binding column accountAlias. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,323
+binding property accountAlias with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,323
+building SimpleValue for accountAlias
+
+[DEBUG] 2013-10-03 10:52:36,323
+Building property accountAlias
+
+[DEBUG] 2013-10-03 10:52:36,323
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountColor
+
+[DEBUG] 2013-10-03 10:52:36,323
+Binding column accountColor. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,323
+binding property accountColor with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,323
+building SimpleValue for accountColor
+
+[DEBUG] 2013-10-03 10:52:36,323
+Building property accountColor
+
+[DEBUG] 2013-10-03 10:52:36,323
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountName
+
+[DEBUG] 2013-10-03 10:52:36,324
+Binding column accountName. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,324
+binding property accountName with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,324
+building SimpleValue for accountName
+
+[DEBUG] 2013-10-03 10:52:36,324
+Building property accountName
+
+[DEBUG] 2013-10-03 10:52:36,324
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountSession
+
+[DEBUG] 2013-10-03 10:52:36,324
+Binding column accountSession. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,324
+binding property accountSession with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,324
+building SimpleValue for accountSession
+
+[DEBUG] 2013-10-03 10:52:36,324
+Building property accountSession
+
+[DEBUG] 2013-10-03 10:52:36,324
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountSession_exp
+
+[DEBUG] 2013-10-03 10:52:36,324
+Binding column accountSession_exp. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,325
+binding property accountSession_exp with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,325
+building SimpleValue for accountSession_exp
+
+[DEBUG] 2013-10-03 10:52:36,325
+Building property accountSession_exp
+
+[DEBUG] 2013-10-03 10:52:36,325
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountStatus
+
+[DEBUG] 2013-10-03 10:52:36,325
+Binding column accountStatus. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,325
+binding property accountStatus with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,328
+building SimpleValue for accountStatus
+
+[DEBUG] 2013-10-03 10:52:36,328
+Building property accountStatus
+
+[DEBUG] 2013-10-03 10:52:36,328
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountToken
+
+[DEBUG] 2013-10-03 10:52:36,328
+Binding column accountToken. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,328
+binding property accountToken with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,328
+building SimpleValue for accountToken
+
+[DEBUG] 2013-10-03 10:52:36,328
+Building property accountToken
+
+[DEBUG] 2013-10-03 10:52:36,328
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountToken_exp
+
+[DEBUG] 2013-10-03 10:52:36,328
+Binding column accountToken_exp. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:52:36,328
+binding property accountToken_exp with lazy=false
+
+[DEBUG] 2013-10-03 10:52:36,329
+building SimpleValue for accountToken_exp
+
+[DEBUG] 2013-10-03 10:52:36,329
+Building property accountToken_exp
+
+[DEBUG] 2013-10-03 10:52:36,329
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:52:36,331
+processing extends queue
+
+[DEBUG] 2013-10-03 10:52:36,331
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:52:36,331
+Second pass for collection: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:52:36,331
+Binding a OneToMany: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts through an association table
+
+[DEBUG] 2013-10-03 10:52:36,357
+Mapped collection key: accounts_accountID, element: ebayPlusAccounts_accountID
+
+[DEBUG] 2013-10-03 10:52:36,357
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:52:36,357
+processing association property references
+
+[DEBUG] 2013-10-03 10:52:36,357
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:52:36,357
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:52:36,357
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[INFO ] 2013-10-03 10:52:36,359
+Hibernate Validator not found: ignoring
+
+[DEBUG] 2013-10-03 10:52:36,394
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:52:36,394
+Process hbm files
+
+[DEBUG] 2013-10-03 10:52:36,394
+Process annotated classes
+
+[DEBUG] 2013-10-03 10:52:36,394
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:52:36,394
+processing extends queue
+
+[DEBUG] 2013-10-03 10:52:36,394
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:52:36,394
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:52:36,394
+processing association property references
+
+[DEBUG] 2013-10-03 10:52:36,394
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:52:36,394
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:52:36,394
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[INFO ] 2013-10-03 10:52:36,404
+Running hbm2ddl schema export
+
+[DEBUG] 2013-10-03 10:52:36,406
+import file not found: /import.sql
+
+[INFO ] 2013-10-03 10:52:36,406
+exporting generated schema to database
+
+[INFO ] 2013-10-03 10:52:36,409
+Using Hibernate built-in connection pool (not for production use!)
+
+[INFO ] 2013-10-03 10:52:36,409
+Hibernate connection pool size: 20
+
+[INFO ] 2013-10-03 10:52:36,409
+autocommit mode: false
+
+[INFO ] 2013-10-03 10:52:36,417
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ebayplus
+
+[INFO ] 2013-10-03 10:52:36,417
+connection properties: {user=root, password=}
+
+[DEBUG] 2013-10-03 10:52:36,417
+opening new JDBC connection
+
+[DEBUG] 2013-10-03 10:52:36,693
+created connection to: jdbc:mysql://localhost:3306/ebayplus, Isolation Level: 4
+
+[DEBUG] 2013-10-03 10:52:36,694
+alter table accounts_ebayplus_accounts drop foreign key FK8499D95D70A2FF3A
+
+[DEBUG] 2013-10-03 10:52:36,971
+alter table accounts_ebayplus_accounts drop foreign key FK8499D95DD01EC05A
+
+[DEBUG] 2013-10-03 10:52:37,043
+drop table if exists accounts
+
+[DEBUG] 2013-10-03 10:52:37,119
+drop table if exists accounts_ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:52:37,182
+drop table if exists ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:52:37,260
+create table accounts (accountID integer not null auto_increment, password varchar(255), username varchar(255), primary key (accountID), unique (username))
+
+[DEBUG] 2013-10-03 10:52:37,686
+create table accounts_ebayplus_accounts (accounts_accountID integer not null, ebayPlusAccounts_accountID integer not null, unique (ebayPlusAccounts_accountID))
+
+[DEBUG] 2013-10-03 10:52:37,922
+create table ebayplus_accounts (accountID integer not null auto_increment, accountAdmin varchar(255), accountAlias varchar(255), accountColor varchar(255), accountName varchar(255), accountSession varchar(255), accountSession_exp datetime, accountStatus varchar(255), accountToken Text, accountToken_exp datetime, primary key (accountID), unique (accountName, accountAlias))
+
+[DEBUG] 2013-10-03 10:52:38,382
+alter table accounts_ebayplus_accounts add index FK8499D95D70A2FF3A (accounts_accountID), add constraint FK8499D95D70A2FF3A foreign key (accounts_accountID) references accounts (accountID)
+
+[DEBUG] 2013-10-03 10:52:39,332
+alter table accounts_ebayplus_accounts add index FK8499D95DD01EC05A (ebayPlusAccounts_accountID), add constraint FK8499D95DD01EC05A foreign key (ebayPlusAccounts_accountID) references ebayplus_accounts (accountID)
+
+[INFO ] 2013-10-03 10:52:40,062
+schema export complete
+
+[INFO ] 2013-10-03 10:52:40,064
+cleaning up connection pool: jdbc:mysql://localhost:3306/ebayplus
+
+[DEBUG] 2013-10-03 10:52:40,069
+Validator not present in classpath, ignoring event listener registration
+
+[DEBUG] 2013-10-03 10:52:40,076
+Search not present in classpath, ignoring event listener registration.
+
+[INFO ] 2013-10-03 10:52:40,076
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+
+[DEBUG] 2013-10-03 10:52:40,076
+Preparing to build session factory with filters : {}
+
+[DEBUG] 2013-10-03 10:52:40,076
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:52:40,076
+Process hbm files
+
+[DEBUG] 2013-10-03 10:52:40,077
+Process annotated classes
+
+[DEBUG] 2013-10-03 10:52:40,077
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:52:40,077
+processing extends queue
+
+[DEBUG] 2013-10-03 10:52:40,077
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:52:40,077
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:52:40,077
+processing association property references
+
+[DEBUG] 2013-10-03 10:52:40,077
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:52:40,077
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:52:40,078
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[INFO ] 2013-10-03 10:52:40,085
+Using Hibernate built-in connection pool (not for production use!)
+
+[INFO ] 2013-10-03 10:52:40,085
+Hibernate connection pool size: 20
+
+[INFO ] 2013-10-03 10:52:40,086
+autocommit mode: false
+
+[INFO ] 2013-10-03 10:52:40,086
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ebayplus
+
+[INFO ] 2013-10-03 10:52:40,086
+connection properties: {user=root, password=}
+
+[DEBUG] 2013-10-03 10:52:40,086
+opening new JDBC connection
+
+[DEBUG] 2013-10-03 10:52:40,139
+created connection to: jdbc:mysql://localhost:3306/ebayplus, Isolation Level: 4
+
+[INFO ] 2013-10-03 10:52:40,139
+RDBMS: MySQL, version: 5.6.12-log
+
+[INFO ] 2013-10-03 10:52:40,139
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )
+
+[INFO ] 2013-10-03 10:52:40,164
+cleaning up connection pool: jdbc:mysql://localhost:3306/ebayplus
+
+[INFO ] 2013-10-03 10:52:40,172
+Using dialect: org.hibernate.dialect.MySQLDialect
+
+[INFO ] 2013-10-03 10:52:40,175
+Using default transaction strategy (direct JDBC transactions)
+
+[INFO ] 2013-10-03 10:52:40,177
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+
+[INFO ] 2013-10-03 10:52:40,177
+Automatic flush during beforeCompletion(): disabled
+
+[INFO ] 2013-10-03 10:52:40,177
+Automatic session close at end of transaction: disabled
+
+[INFO ] 2013-10-03 10:52:40,177
+JDBC batch size: 15
+
+[INFO ] 2013-10-03 10:52:40,177
+JDBC batch updates for versioned data: disabled
+
+[INFO ] 2013-10-03 10:52:40,178
+Scrollable result sets: enabled
+
+[DEBUG] 2013-10-03 10:52:40,178
+Wrap result sets: disabled
+
+[INFO ] 2013-10-03 10:52:40,178
+JDBC3 getGeneratedKeys(): enabled
+
+[INFO ] 2013-10-03 10:52:40,178
+Connection release mode: auto
+
+[INFO ] 2013-10-03 10:52:40,179
+Maximum outer join fetch depth: 2
+
+[INFO ] 2013-10-03 10:52:40,179
+Default batch fetch size: 1
+
+[INFO ] 2013-10-03 10:52:40,179
+Generate SQL with comments: disabled
+
+[INFO ] 2013-10-03 10:52:40,179
+Order SQL updates by primary key: disabled
+
+[INFO ] 2013-10-03 10:52:40,179
+Order SQL inserts for batching: disabled
+
+[INFO ] 2013-10-03 10:52:40,179
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+
+[INFO ] 2013-10-03 10:52:40,182
+Using ASTQueryTranslatorFactory
+
+[INFO ] 2013-10-03 10:52:40,182
+Query language substitutions: {}
+
+[INFO ] 2013-10-03 10:52:40,182
+JPA-QL strict compliance: disabled
+
+[INFO ] 2013-10-03 10:52:40,182
+Second-level cache: enabled
+
+[INFO ] 2013-10-03 10:52:40,182
+Query cache: disabled
+
+[INFO ] 2013-10-03 10:52:40,187
+Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+
+[INFO ] 2013-10-03 10:52:40,188
+Cache provider: org.hibernate.cache.NoCacheProvider
+
+[INFO ] 2013-10-03 10:52:40,188
+Optimize cache for minimal puts: disabled
+
+[INFO ] 2013-10-03 10:52:40,188
+Structured second-level cache entries: disabled
+
+[INFO ] 2013-10-03 10:52:40,193
+Statistics: disabled
+
+[INFO ] 2013-10-03 10:52:40,194
+Deleted entity synthetic identifier rollback: disabled
+
+[INFO ] 2013-10-03 10:52:40,194
+Default entity-mode: pojo
+
+[INFO ] 2013-10-03 10:52:40,194
+Named query checking : enabled
+
+[INFO ] 2013-10-03 10:52:40,241
+building session factory
+
+[DEBUG] 2013-10-03 10:52:40,243
+Session factory constructed with filter configurations : {}
+
+[DEBUG] 2013-10-03 10:52:40,243
+instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/ebayplus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, hbm2ddl.auto=create, sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes, user.country.format=IL, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_03-b05, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, user.name=lior.ginsberg, user.language.format=he, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, user.language=en, sun.boot.library.path=C:\Program Files\Java\jre7\bin, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.7.0_03, user.timezone=Europe/Athens, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jre7\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1255, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=US, connection.url=jdbc:mysql://localhost:3306/ebayplus, java.home=C:\Program Files\Java\jre7, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=, java.vm.version=22.1-b02, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.script=, user.home=C:\Users\lior.ginsberg, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=create, java.library.path=C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Apache\apache-maven-3.0.4-bin\apache-maven-3.0.4\\bin;C:\Users\daniel-s\android-sdks\tools;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 51663 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test test.DAOTests:addAccountWithEbayAccount, java.class.path=C:\git_local\SecretProject\build\classes;C:\git_local\SecretProject\WebContent\WEB-INF\lib\FastInfoset.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\activation.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\antlr-2.7.6.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\attributes.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\cglib-2.2.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\commons-collections-3.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ebaycalls.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ebaysdkcore.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ejb3-persistence.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\helper.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate-annotations.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate-commons-annotations.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate3.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\http.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jakarta-oro-2.0.8.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\javassist-3.9.0.GA.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-impl.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-xjc.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-rt.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-tools.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr173_api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr181-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr250-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jta-1.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\log4j-1.2.16.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\mimepull.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\mysql-connector-java-5.1.18-bin.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\resolver.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\saaj-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\saaj-impl.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\serializer.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\sjsxp.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\slf4j-api-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\slf4j-log4j12-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\stax-ex.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\streambuffer.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\xalan.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\annotations-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-ant.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-ha.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-tribes.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\ecj-4.2.2.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\el-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jasper-el.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jasper.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jsp-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\servlet-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-coyote.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-dbcp.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-es.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-fr.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-ja.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-jdbc.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-util.jar;C:\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;C:\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;/C:/eclipse/configuration/org.eclipse.osgi/bundles/358/1/.cp/;/C:/eclipse/configuration/org.eclipse.osgi/bundles/357/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\LIOR~1.GIN\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\git_local\SecretProject, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, cache.provider_class=org.hibernate.cache.NoCacheProvider, file.encoding=Cp1255, java.specification.version=1.7, hibernate.show_sql=false}
+
+[DEBUG] 2013-10-03 10:52:40,400
+Static SQL for entity: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:52:40,400
+ Version select: select accountID from accounts where accountID =?
+
+[DEBUG] 2013-10-03 10:52:40,400
+ Snapshot select: select account_.accountID, account_.password as password0_, account_.username as username0_ from accounts account_ where account_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,400
+ Insert 0: insert into accounts (password, username, accountID) values (?, ?, ?)
+
+[DEBUG] 2013-10-03 10:52:40,400
+ Update 0: update accounts set password=?, username=? where accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,401
+ Delete 0: delete from accounts where accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,401
+ Identity insert: insert into accounts (password, username) values (?, ?)
+
+[DEBUG] 2013-10-03 10:52:40,408
+Static SQL for entity: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[DEBUG] 2013-10-03 10:52:40,408
+ Version select: select accountID from ebayplus_accounts where accountID =?
+
+[DEBUG] 2013-10-03 10:52:40,408
+ Snapshot select: select ebayplusac_.accountID, ebayplusac_.accountAdmin as accountA2_1_, ebayplusac_.accountAlias as accountA3_1_, ebayplusac_.accountColor as accountC4_1_, ebayplusac_.accountName as accountN5_1_, ebayplusac_.accountSession as accountS6_1_, ebayplusac_.accountSession_exp as accountS7_1_, ebayplusac_.accountStatus as accountS8_1_, ebayplusac_.accountToken as accountT9_1_, ebayplusac_.accountToken_exp as account10_1_ from ebayplus_accounts ebayplusac_ where ebayplusac_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,408
+ Insert 0: insert into ebayplus_accounts (accountAdmin, accountAlias, accountColor, accountName, accountSession, accountSession_exp, accountStatus, accountToken, accountToken_exp, accountID) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+[DEBUG] 2013-10-03 10:52:40,408
+ Update 0: update ebayplus_accounts set accountAdmin=?, accountAlias=?, accountColor=?, accountName=?, accountSession=?, accountSession_exp=?, accountStatus=?, accountToken=?, accountToken_exp=? where accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,408
+ Delete 0: delete from ebayplus_accounts where accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,408
+ Identity insert: insert into ebayplus_accounts (accountAdmin, accountAlias, accountColor, accountName, accountSession, accountSession_exp, accountStatus, accountToken, accountToken_exp) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+[DEBUG] 2013-10-03 10:52:40,416
+Static SQL for collection: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:52:40,416
+ Row insert: insert into accounts_ebayplus_accounts (accounts_accountID, ebayPlusAccounts_accountID) values (?, ?)
+
+[DEBUG] 2013-10-03 10:52:40,416
+ Row update: update accounts_ebayplus_accounts set ebayPlusAccounts_accountID=? where accounts_accountID=? and ebayPlusAccounts_accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,416
+ Row delete: delete from accounts_ebayplus_accounts where accounts_accountID=? and ebayPlusAccounts_accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,416
+ One-shot delete: delete from accounts_ebayplus_accounts where accounts_accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,442
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,443
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,443
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_0_, account0_.password as password0_0_, account0_.username as username0_0_ from accounts account0_ where account0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:52:40,443
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_0_, account0_.password as password0_0_, account0_.username as username0_0_ from accounts account0_ where account0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:52:40,443
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_0_, account0_.password as password0_0_, account0_.username as username0_0_ from accounts account0_ where account0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:52:40,453
+Static select for action ACTION_MERGE on entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,454
+Static select for action ACTION_REFRESH on entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,456
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,456
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,457
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:52:40,457
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:52:40,457
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:52:40,457
+Static select for action ACTION_MERGE on entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,458
+Static select for action ACTION_REFRESH on entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,462
+Static select for collection com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts: select ebayplusac0_.accounts_accountID as accounts1_1_, ebayplusac0_.ebayPlusAccounts_accountID as ebayPlus2_1_, ebayplusac1_.accountID as accountID1_0_, ebayplusac1_.accountAdmin as accountA2_1_0_, ebayplusac1_.accountAlias as accountA3_1_0_, ebayplusac1_.accountColor as accountC4_1_0_, ebayplusac1_.accountName as accountN5_1_0_, ebayplusac1_.accountSession as accountS6_1_0_, ebayplusac1_.accountSession_exp as accountS7_1_0_, ebayplusac1_.accountStatus as accountS8_1_0_, ebayplusac1_.accountToken as accountT9_1_0_, ebayplusac1_.accountToken_exp as account10_1_0_ from accounts_ebayplus_accounts ebayplusac0_ left outer join ebayplus_accounts ebayplusac1_ on ebayplusac0_.ebayPlusAccounts_accountID=ebayplusac1_.accountID where ebayplusac0_.accounts_accountID=?
+
+[DEBUG] 2013-10-03 10:52:40,493
+initializing class SessionFactoryObjectFactory
+
+[DEBUG] 2013-10-03 10:52:40,494
+registered: 8a818110417d4ddb01417d4deb0f0000 (unnamed)
+
+[INFO ] 2013-10-03 10:52:40,494
+Not binding factory to JNDI, no JNDI name configured
+
+[DEBUG] 2013-10-03 10:52:40,494
+instantiated session factory
+
+[DEBUG] 2013-10-03 10:52:40,495
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:52:40,495
+Process hbm files
+
+[DEBUG] 2013-10-03 10:52:40,495
+Process annotated classes
+
+[DEBUG] 2013-10-03 10:52:40,495
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:52:40,495
+processing extends queue
+
+[DEBUG] 2013-10-03 10:52:40,495
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:52:40,495
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:52:40,495
+processing association property references
+
+[DEBUG] 2013-10-03 10:52:40,495
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:52:40,495
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:52:40,496
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[DEBUG] 2013-10-03 10:52:40,497
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:52:40,497
+Process hbm files
+
+[DEBUG] 2013-10-03 10:52:40,497
+Process annotated classes
+
+[DEBUG] 2013-10-03 10:52:40,497
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:52:40,497
+processing extends queue
+
+[DEBUG] 2013-10-03 10:52:40,497
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:52:40,498
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:52:40,498
+processing association property references
+
+[DEBUG] 2013-10-03 10:52:40,498
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:52:40,498
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:52:40,498
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[INFO ] 2013-10-03 10:52:40,500
+Running hbm2ddl schema export
+
+[DEBUG] 2013-10-03 10:52:40,502
+import file not found: /import.sql
+
+[INFO ] 2013-10-03 10:52:40,503
+exporting generated schema to database
+
+[DEBUG] 2013-10-03 10:52:40,506
+alter table accounts_ebayplus_accounts drop foreign key FK8499D95D70A2FF3A
+
+[DEBUG] 2013-10-03 10:52:40,575
+alter table accounts_ebayplus_accounts drop foreign key FK8499D95DD01EC05A
+
+[DEBUG] 2013-10-03 10:52:40,624
+drop table if exists accounts
+
+[DEBUG] 2013-10-03 10:52:40,731
+drop table if exists accounts_ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:52:40,969
+drop table if exists ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:52:41,079
+create table accounts (accountID integer not null auto_increment, password varchar(255), username varchar(255), primary key (accountID), unique (username))
+
+[DEBUG] 2013-10-03 10:52:41,497
+create table accounts_ebayplus_accounts (accounts_accountID integer not null, ebayPlusAccounts_accountID integer not null, unique (ebayPlusAccounts_accountID))
+
+[DEBUG] 2013-10-03 10:52:41,837
+create table ebayplus_accounts (accountID integer not null auto_increment, accountAdmin varchar(255), accountAlias varchar(255), accountColor varchar(255), accountName varchar(255), accountSession varchar(255), accountSession_exp datetime, accountStatus varchar(255), accountToken Text, accountToken_exp datetime, primary key (accountID), unique (accountName, accountAlias))
+
+[DEBUG] 2013-10-03 10:52:42,297
+alter table accounts_ebayplus_accounts add index FK8499D95D70A2FF3A (accounts_accountID), add constraint FK8499D95D70A2FF3A foreign key (accounts_accountID) references accounts (accountID)
+
+[DEBUG] 2013-10-03 10:52:43,176
+alter table accounts_ebayplus_accounts add index FK8499D95DD01EC05A (ebayPlusAccounts_accountID), add constraint FK8499D95DD01EC05A foreign key (ebayPlusAccounts_accountID) references ebayplus_accounts (accountID)
+
+[INFO ] 2013-10-03 10:52:44,071
+schema export complete
+
+[DEBUG] 2013-10-03 10:52:44,079
+Checking 0 named HQL queries
+
+[DEBUG] 2013-10-03 10:52:44,079
+Checking 0 named SQL queries
+
+[DEBUG] 2013-10-03 10:52:44,123
+opened session at timestamp: 13807867640
+
+[DEBUG] 2013-10-03 10:52:44,125
+begin
+
+[DEBUG] 2013-10-03 10:52:44,125
+opening JDBC connection
+
+[DEBUG] 2013-10-03 10:52:44,125
+current autocommit status: false
+
+[DEBUG] 2013-10-03 10:52:44,147
+executing identity-insert immediately
+
+[DEBUG] 2013-10-03 10:52:44,148
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:52:44,148
+insert into accounts (password, username) values (?, ?)
+
+[DEBUG] 2013-10-03 10:52:44,162
+Natively generated identity: 1
+
+[DEBUG] 2013-10-03 10:52:44,163
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:52:44,168
+executing identity-insert immediately
+
+[DEBUG] 2013-10-03 10:52:44,169
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:52:44,169
+insert into ebayplus_accounts (accountAdmin, accountAlias, accountColor, accountName, accountSession, accountSession_exp, accountStatus, accountToken, accountToken_exp) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+[DEBUG] 2013-10-03 10:52:44,181
+Natively generated identity: 1
+
+[DEBUG] 2013-10-03 10:52:44,181
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:52:44,181
+commit
+
+[DEBUG] 2013-10-03 10:52:44,183
+processing flush-time cascades
+
+[DEBUG] 2013-10-03 10:52:44,184
+dirty checking collections
+
+[DEBUG] 2013-10-03 10:52:44,190
+Collection found: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1], was: [<unreferenced>] (initialized)
+
+[DEBUG] 2013-10-03 10:52:44,192
+Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+
+[DEBUG] 2013-10-03 10:52:44,192
+Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+
+[DEBUG] 2013-10-03 10:52:44,193
+listing entities:
+
+[DEBUG] 2013-10-03 10:52:44,194
+com.ebayplus.webapp.hibernate.entities.EbayPlusAccount{accountID=1, accountName=my name, accountStatus=WATING_FOR_ACTIVATION, accountColor=red, accountAlias=liorAlias, accountToken_exp=null, accountSession_exp=2013-10-03 10:52:35, accountSession=null, accountAdmin=zivGin@gmail.com, accountToken=null}
+
+[DEBUG] 2013-10-03 10:52:44,194
+com.ebayplus.webapp.hibernate.entities.Account{accountID=1, username=test, ebayPlusAccounts=[com.ebayplus.webapp.hibernate.entities.EbayPlusAccount#1], password=testpass}
+
+[DEBUG] 2013-10-03 10:52:44,195
+Inserting collection: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1]
+
+[DEBUG] 2013-10-03 10:52:44,199
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:52:44,199
+insert into accounts_ebayplus_accounts (accounts_accountID, ebayPlusAccounts_accountID) values (?, ?)
+
+[DEBUG] 2013-10-03 10:52:44,201
+done inserting collection: 1 rows inserted
+
+[DEBUG] 2013-10-03 10:52:44,201
+Executing batch size: 1
+
+[DEBUG] 2013-10-03 10:52:44,220
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:52:44,262
+committed JDBC Connection
+
+[DEBUG] 2013-10-03 10:52:44,262
+aggressively releasing JDBC connection
+
+[DEBUG] 2013-10-03 10:52:44,262
+releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+
+[DEBUG] 2013-10-03 10:52:44,262
+processing flush-time cascades
+
+[DEBUG] 2013-10-03 10:52:44,262
+dirty checking collections
+
+[DEBUG] 2013-10-03 10:52:44,262
+Collection found: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1], was: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1] (initialized)
+
+[DEBUG] 2013-10-03 10:52:44,263
+Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+
+[DEBUG] 2013-10-03 10:52:44,263
+Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+
+[DEBUG] 2013-10-03 10:52:44,263
+listing entities:
+
+[DEBUG] 2013-10-03 10:52:44,263
+com.ebayplus.webapp.hibernate.entities.EbayPlusAccount{accountID=1, accountName=my name, accountStatus=WATING_FOR_ACTIVATION, accountColor=red, accountAlias=liorAlias, accountToken_exp=null, accountSession_exp=2013-10-03 10:52:35, accountSession=null, accountAdmin=zivGin@gmail.com, accountToken=null}
+
+[DEBUG] 2013-10-03 10:52:44,263
+com.ebayplus.webapp.hibernate.entities.Account{accountID=1, username=test, ebayPlusAccounts=[com.ebayplus.webapp.hibernate.entities.EbayPlusAccount#1], password=testpass}
+
+[DEBUG] 2013-10-03 10:52:44,263
+aggressively releasing JDBC connection
+
+[DEBUG] 2013-10-03 10:52:44,266
+opened session at timestamp: 13807867642
+
+[DEBUG] 2013-10-03 10:52:44,266
+begin
+
+[DEBUG] 2013-10-03 10:52:44,266
+opening JDBC connection
+
+[DEBUG] 2013-10-03 10:52:44,266
+current autocommit status: false
+
+[DEBUG] 2013-10-03 10:52:44,275
+initializing proxy: [com.ebayplus.webapp.hibernate.entities.Account#1]
+
+[DEBUG] 2013-10-03 10:52:44,275
+loading entity: [com.ebayplus.webapp.hibernate.entities.Account#1]
+
+[DEBUG] 2013-10-03 10:52:44,281
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:52:44,282
+select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:52:44,286
+about to open ResultSet (open ResultSets: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:52:44,287
+result row: EntityKey[com.ebayplus.webapp.hibernate.entities.EbayPlusAccount#1], EntityKey[com.ebayplus.webapp.hibernate.entities.Account#1]
+
+[DEBUG] 2013-10-03 10:52:44,290
+found row of collection: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1]
+
+[DEBUG] 2013-10-03 10:52:44,295
+about to close ResultSet (open ResultSets: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:52:44,295
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:52:44,298
+resolving associations for [com.ebayplus.webapp.hibernate.entities.EbayPlusAccount#1]
+
+[DEBUG] 2013-10-03 10:52:44,298
+done materializing entity [com.ebayplus.webapp.hibernate.entities.EbayPlusAccount#1]
+
+[DEBUG] 2013-10-03 10:52:44,299
+resolving associations for [com.ebayplus.webapp.hibernate.entities.Account#1]
+
+[DEBUG] 2013-10-03 10:52:44,299
+done materializing entity [com.ebayplus.webapp.hibernate.entities.Account#1]
+
+[DEBUG] 2013-10-03 10:52:44,299
+1 collections were found in result set for role: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:52:44,299
+collection fully initialized: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1]
+
+[DEBUG] 2013-10-03 10:52:44,299
+1 collections initialized for role: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:52:44,299
+initializing non-lazy collections
+
+[DEBUG] 2013-10-03 10:52:44,299
+done entity load
+
+[DEBUG] 2013-10-03 10:52:44,301
+commit
+
+[DEBUG] 2013-10-03 10:52:44,301
+processing flush-time cascades
+
+[DEBUG] 2013-10-03 10:52:44,302
+dirty checking collections
+
+[DEBUG] 2013-10-03 10:52:44,302
+Collection dereferenced: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1]
+
+[DEBUG] 2013-10-03 10:52:44,303
+Flushed: 0 insertions, 0 updates, 2 deletions to 2 objects
+
+[DEBUG] 2013-10-03 10:52:44,303
+Flushed: 0 (re)creations, 0 updates, 1 removals to 1 collections
+
+[DEBUG] 2013-10-03 10:52:44,303
+listing entities:
+
+[DEBUG] 2013-10-03 10:52:44,304
+com.ebayplus.webapp.hibernate.entities.Account{accountID=1, username=test, ebayPlusAccounts=[com.ebayplus.webapp.hibernate.entities.EbayPlusAccount#1], password=testpass}
+
+[DEBUG] 2013-10-03 10:52:44,304
+com.ebayplus.webapp.hibernate.entities.EbayPlusAccount{accountID=1, accountName=my name, accountStatus=WATING_FOR_ACTIVATION, accountColor=red, accountAlias=liorAlias, accountToken_exp=null, accountSession_exp=2013-10-03 10:52:35, accountSession=null, accountAdmin=zivGin@gmail.com, accountToken=null}
+
+[DEBUG] 2013-10-03 10:52:44,304
+Deleting collection: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1]
+
+[DEBUG] 2013-10-03 10:52:44,304
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:52:44,304
+delete from accounts_ebayplus_accounts where accounts_accountID=?
+
+[DEBUG] 2013-10-03 10:52:44,304
+done deleting collection
+
+[DEBUG] 2013-10-03 10:52:44,304
+Executing batch size: 1
+
+[DEBUG] 2013-10-03 10:52:44,305
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:52:44,305
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:52:44,306
+delete from ebayplus_accounts where accountID=?
+
+[DEBUG] 2013-10-03 10:52:44,306
+Executing batch size: 1
+
+[DEBUG] 2013-10-03 10:52:44,307
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:52:44,307
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:52:44,307
+delete from accounts where accountID=?
+
+[DEBUG] 2013-10-03 10:52:44,307
+Executing batch size: 1
+
+[DEBUG] 2013-10-03 10:52:44,308
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:52:44,333
+committed JDBC Connection
+
+[DEBUG] 2013-10-03 10:52:44,333
+aggressively releasing JDBC connection
+
+[DEBUG] 2013-10-03 10:52:44,333
+releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+
+[DEBUG] 2013-10-03 10:52:44,333
+processing flush-time cascades
+
+[DEBUG] 2013-10-03 10:52:44,333
+dirty checking collections
+
+[DEBUG] 2013-10-03 10:52:44,333
+Flushed: 0 insertions, 0 updates, 0 deletions to 0 objects
+
+[DEBUG] 2013-10-03 10:52:44,333
+Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+[DEBUG] 2013-10-03 10:52:44,333
+aggressively releasing JDBC connection
+
+[INFO ] 2013-10-03 10:53:03,902
+Hibernate Annotations 3.4.0.GA
+
+[INFO ] 2013-10-03 10:53:03,920
+Hibernate 3.3.2.GA
+
+[INFO ] 2013-10-03 10:53:03,923
+hibernate.properties not found
+
+[INFO ] 2013-10-03 10:53:03,927
+Bytecode provider name : javassist
+
+[INFO ] 2013-10-03 10:53:03,933
+using JDK 1.4 java.sql.Timestamp handling
+
+[INFO ] 2013-10-03 10:53:04,035
+Hibernate Commons Annotations 3.1.0.GA
+
+[INFO ] 2013-10-03 10:53:04,045
+configuring from resource: /hibernate.cfg.xml
+
+[INFO ] 2013-10-03 10:53:04,046
+Configuration resource: /hibernate.cfg.xml
+
+[DEBUG] 2013-10-03 10:53:04,118
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+
+[DEBUG] 2013-10-03 10:53:04,118
+recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+
+[DEBUG] 2013-10-03 10:53:04,119
+located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+
+[DEBUG] 2013-10-03 10:53:04,158
+connection.driver_class=com.mysql.jdbc.Driver
+
+[DEBUG] 2013-10-03 10:53:04,159
+connection.url=jdbc:mysql://localhost:3306/ebayplus
+
+[DEBUG] 2013-10-03 10:53:04,159
+connection.username=root
+
+[DEBUG] 2013-10-03 10:53:04,159
+connection.password=
+
+[DEBUG] 2013-10-03 10:53:04,159
+dialect=org.hibernate.dialect.MySQLDialect
+
+[DEBUG] 2013-10-03 10:53:04,159
+current_session_context_class=thread
+
+[DEBUG] 2013-10-03 10:53:04,159
+cache.provider_class=org.hibernate.cache.NoCacheProvider
+
+[DEBUG] 2013-10-03 10:53:04,159
+show_sql=false
+
+[DEBUG] 2013-10-03 10:53:04,159
+hbm2ddl.auto=create
+
+[INFO ] 2013-10-03 10:53:04,159
+Configured SessionFactory: null
+
+[DEBUG] 2013-10-03 10:53:04,160
+properties: {show_sql=false, java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/ebayplus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hbm2ddl.auto=create, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes, user.country.format=IL, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_03-b05, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, user.name=lior.ginsberg, user.language.format=he, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, user.language=en, sun.boot.library.path=C:\Program Files\Java\jre7\bin, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.7.0_03, user.timezone=Europe/Athens, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jre7\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1255, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=US, connection.url=jdbc:mysql://localhost:3306/ebayplus, java.home=C:\Program Files\Java\jre7, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=, java.vm.version=22.1-b02, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.script=, user.home=C:\Users\lior.ginsberg, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=create, java.library.path=C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Apache\apache-maven-3.0.4-bin\apache-maven-3.0.4\\bin;C:\Users\daniel-s\android-sdks\tools;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 51679 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test test.DAOTests:addAccountWithEbayAccount, java.class.path=C:\git_local\SecretProject\build\classes;C:\git_local\SecretProject\WebContent\WEB-INF\lib\FastInfoset.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\activation.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\antlr-2.7.6.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\attributes.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\cglib-2.2.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\commons-collections-3.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ebaycalls.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ebaysdkcore.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ejb3-persistence.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\helper.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate-annotations.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate-commons-annotations.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate3.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\http.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jakarta-oro-2.0.8.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\javassist-3.9.0.GA.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-impl.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-xjc.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-rt.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-tools.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr173_api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr181-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr250-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jta-1.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\log4j-1.2.16.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\mimepull.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\mysql-connector-java-5.1.18-bin.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\resolver.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\saaj-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\saaj-impl.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\serializer.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\sjsxp.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\slf4j-api-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\slf4j-log4j12-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\stax-ex.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\streambuffer.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\xalan.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\annotations-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-ant.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-ha.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-tribes.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\ecj-4.2.2.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\el-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jasper-el.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jasper.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jsp-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\servlet-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-coyote.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-dbcp.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-es.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-fr.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-ja.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-jdbc.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-util.jar;C:\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;C:\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;/C:/eclipse/configuration/org.eclipse.osgi/bundles/358/1/.cp/;/C:/eclipse/configuration/org.eclipse.osgi/bundles/357/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\LIOR~1.GIN\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\git_local\SecretProject, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, cache.provider_class=org.hibernate.cache.NoCacheProvider, file.encoding=Cp1255, java.specification.version=1.7, hibernate.show_sql=false}
+
+[INFO ] 2013-10-03 10:53:04,207
+Using dialect: org.hibernate.dialect.MySQLDialect
+
+[DEBUG] 2013-10-03 10:53:04,261
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:53:04,319
+Process hbm files
+
+[DEBUG] 2013-10-03 10:53:04,319
+Process annotated classes
+
+[INFO ] 2013-10-03 10:53:04,326
+Binding entity from annotated class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:53:04,352
+Binding column DTYPE. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:53:04,377
+Import with entity name Account
+
+[INFO ] 2013-10-03 10:53:04,380
+Bind entity com.ebayplus.webapp.hibernate.entities.Account on table accounts
+
+[DEBUG] 2013-10-03 10:53:04,389
+Processing com.ebayplus.webapp.hibernate.entities.Account property annotation
+
+[DEBUG] 2013-10-03 10:53:04,411
+Processing com.ebayplus.webapp.hibernate.entities.Account field annotation
+
+[DEBUG] 2013-10-03 10:53:04,452
+Processing annotations of com.ebayplus.webapp.hibernate.entities.Account.accountID
+
+[DEBUG] 2013-10-03 10:53:04,483
+Binding column accountID. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:53:04,484
+accountID is an id
+
+[DEBUG] 2013-10-03 10:53:04,491
+building SimpleValue for accountID
+
+[DEBUG] 2013-10-03 10:53:04,494
+Building property accountID
+
+[DEBUG] 2013-10-03 10:53:04,503
+Bind @Id on accountID
+
+[DEBUG] 2013-10-03 10:53:04,504
+Processing annotations of com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:53:04,508
+Binding column null. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,508
+Binding column ebayPlusAccounts. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,511
+Binding column null. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,542
+Binding column element. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,544
+Binding column mapkey. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,544
+Binding column null. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,546
+Binding column null. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:53:04,546
+Binding column null. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:53:04,547
+Collection role: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:53:04,553
+Building property ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:53:04,553
+Processing annotations of com.ebayplus.webapp.hibernate.entities.Account.password
+
+[DEBUG] 2013-10-03 10:53:04,553
+Binding column password. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,554
+binding property password with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,554
+building SimpleValue for password
+
+[DEBUG] 2013-10-03 10:53:04,554
+Building property password
+
+[DEBUG] 2013-10-03 10:53:04,555
+Processing annotations of com.ebayplus.webapp.hibernate.entities.Account.username
+
+[DEBUG] 2013-10-03 10:53:04,555
+Binding column username. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,555
+binding property username with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,555
+building SimpleValue for username
+
+[DEBUG] 2013-10-03 10:53:04,555
+Building property username
+
+[INFO ] 2013-10-03 10:53:04,558
+Binding entity from annotated class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[DEBUG] 2013-10-03 10:53:04,558
+Binding column DTYPE. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:53:04,558
+Import with entity name EbayPlusAccount
+
+[INFO ] 2013-10-03 10:53:04,558
+Bind entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount on table ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:53:04,558
+Processing com.ebayplus.webapp.hibernate.entities.EbayPlusAccount property annotation
+
+[DEBUG] 2013-10-03 10:53:04,559
+Processing com.ebayplus.webapp.hibernate.entities.EbayPlusAccount field annotation
+
+[DEBUG] 2013-10-03 10:53:04,565
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountID
+
+[DEBUG] 2013-10-03 10:53:04,565
+Binding column accountID. Unique false. Nullable false.
+
+[DEBUG] 2013-10-03 10:53:04,565
+accountID is an id
+
+[DEBUG] 2013-10-03 10:53:04,565
+building SimpleValue for accountID
+
+[DEBUG] 2013-10-03 10:53:04,565
+Building property accountID
+
+[DEBUG] 2013-10-03 10:53:04,565
+Bind @Id on accountID
+
+[DEBUG] 2013-10-03 10:53:04,565
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountAdmin
+
+[DEBUG] 2013-10-03 10:53:04,565
+Binding column accountAdmin. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,565
+binding property accountAdmin with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,566
+building SimpleValue for accountAdmin
+
+[DEBUG] 2013-10-03 10:53:04,566
+Building property accountAdmin
+
+[DEBUG] 2013-10-03 10:53:04,566
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountAlias
+
+[DEBUG] 2013-10-03 10:53:04,566
+Binding column accountAlias. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,566
+binding property accountAlias with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,566
+building SimpleValue for accountAlias
+
+[DEBUG] 2013-10-03 10:53:04,566
+Building property accountAlias
+
+[DEBUG] 2013-10-03 10:53:04,566
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountColor
+
+[DEBUG] 2013-10-03 10:53:04,566
+Binding column accountColor. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,566
+binding property accountColor with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,566
+building SimpleValue for accountColor
+
+[DEBUG] 2013-10-03 10:53:04,566
+Building property accountColor
+
+[DEBUG] 2013-10-03 10:53:04,566
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountName
+
+[DEBUG] 2013-10-03 10:53:04,567
+Binding column accountName. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,567
+binding property accountName with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,567
+building SimpleValue for accountName
+
+[DEBUG] 2013-10-03 10:53:04,567
+Building property accountName
+
+[DEBUG] 2013-10-03 10:53:04,567
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountSession
+
+[DEBUG] 2013-10-03 10:53:04,567
+Binding column accountSession. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,567
+binding property accountSession with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,567
+building SimpleValue for accountSession
+
+[DEBUG] 2013-10-03 10:53:04,567
+Building property accountSession
+
+[DEBUG] 2013-10-03 10:53:04,567
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountSession_exp
+
+[DEBUG] 2013-10-03 10:53:04,567
+Binding column accountSession_exp. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,568
+binding property accountSession_exp with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,568
+building SimpleValue for accountSession_exp
+
+[DEBUG] 2013-10-03 10:53:04,568
+Building property accountSession_exp
+
+[DEBUG] 2013-10-03 10:53:04,568
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountStatus
+
+[DEBUG] 2013-10-03 10:53:04,568
+Binding column accountStatus. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,568
+binding property accountStatus with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,571
+building SimpleValue for accountStatus
+
+[DEBUG] 2013-10-03 10:53:04,571
+Building property accountStatus
+
+[DEBUG] 2013-10-03 10:53:04,571
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountToken
+
+[DEBUG] 2013-10-03 10:53:04,571
+Binding column accountToken. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,572
+binding property accountToken with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,572
+building SimpleValue for accountToken
+
+[DEBUG] 2013-10-03 10:53:04,572
+Building property accountToken
+
+[DEBUG] 2013-10-03 10:53:04,572
+Processing annotations of com.ebayplus.webapp.hibernate.entities.EbayPlusAccount.accountToken_exp
+
+[DEBUG] 2013-10-03 10:53:04,572
+Binding column accountToken_exp. Unique false. Nullable true.
+
+[DEBUG] 2013-10-03 10:53:04,572
+binding property accountToken_exp with lazy=false
+
+[DEBUG] 2013-10-03 10:53:04,572
+building SimpleValue for accountToken_exp
+
+[DEBUG] 2013-10-03 10:53:04,572
+Building property accountToken_exp
+
+[DEBUG] 2013-10-03 10:53:04,572
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:53:04,574
+processing extends queue
+
+[DEBUG] 2013-10-03 10:53:04,574
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:53:04,574
+Second pass for collection: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:53:04,575
+Binding a OneToMany: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts through an association table
+
+[DEBUG] 2013-10-03 10:53:04,604
+Mapped collection key: accounts_accountID, element: ebayPlusAccounts_accountID
+
+[DEBUG] 2013-10-03 10:53:04,604
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:53:04,604
+processing association property references
+
+[DEBUG] 2013-10-03 10:53:04,604
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:53:04,604
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:53:04,604
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[INFO ] 2013-10-03 10:53:04,607
+Hibernate Validator not found: ignoring
+
+[DEBUG] 2013-10-03 10:53:04,638
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:53:04,638
+Process hbm files
+
+[DEBUG] 2013-10-03 10:53:04,638
+Process annotated classes
+
+[DEBUG] 2013-10-03 10:53:04,638
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:53:04,638
+processing extends queue
+
+[DEBUG] 2013-10-03 10:53:04,638
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:53:04,638
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:53:04,638
+processing association property references
+
+[DEBUG] 2013-10-03 10:53:04,638
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:53:04,638
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:53:04,638
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[INFO ] 2013-10-03 10:53:04,649
+Running hbm2ddl schema export
+
+[DEBUG] 2013-10-03 10:53:04,651
+import file not found: /import.sql
+
+[INFO ] 2013-10-03 10:53:04,651
+exporting generated schema to database
+
+[INFO ] 2013-10-03 10:53:04,654
+Using Hibernate built-in connection pool (not for production use!)
+
+[INFO ] 2013-10-03 10:53:04,654
+Hibernate connection pool size: 20
+
+[INFO ] 2013-10-03 10:53:04,654
+autocommit mode: false
+
+[INFO ] 2013-10-03 10:53:04,662
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ebayplus
+
+[INFO ] 2013-10-03 10:53:04,662
+connection properties: {user=root, password=}
+
+[DEBUG] 2013-10-03 10:53:04,662
+opening new JDBC connection
+
+[DEBUG] 2013-10-03 10:53:05,039
+created connection to: jdbc:mysql://localhost:3306/ebayplus, Isolation Level: 4
+
+[DEBUG] 2013-10-03 10:53:05,040
+alter table accounts_ebayplus_accounts drop foreign key FK8499D95D70A2FF3A
+
+[DEBUG] 2013-10-03 10:53:05,334
+alter table accounts_ebayplus_accounts drop foreign key FK8499D95DD01EC05A
+
+[DEBUG] 2013-10-03 10:53:05,398
+drop table if exists accounts
+
+[DEBUG] 2013-10-03 10:53:05,521
+drop table if exists accounts_ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:53:05,652
+drop table if exists ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:53:05,744
+create table accounts (accountID integer not null auto_increment, password varchar(255), username varchar(255), primary key (accountID), unique (username))
+
+[DEBUG] 2013-10-03 10:53:06,161
+create table accounts_ebayplus_accounts (accounts_accountID integer not null, ebayPlusAccounts_accountID integer not null, unique (ebayPlusAccounts_accountID))
+
+[DEBUG] 2013-10-03 10:53:06,476
+create table ebayplus_accounts (accountID integer not null auto_increment, accountAdmin varchar(255), accountAlias varchar(255), accountColor varchar(255), accountName varchar(255), accountSession varchar(255), accountSession_exp datetime, accountStatus varchar(255), accountToken Text, accountToken_exp datetime, primary key (accountID), unique (accountName, accountAlias))
+
+[DEBUG] 2013-10-03 10:53:06,924
+alter table accounts_ebayplus_accounts add index FK8499D95D70A2FF3A (accounts_accountID), add constraint FK8499D95D70A2FF3A foreign key (accounts_accountID) references accounts (accountID)
+
+[DEBUG] 2013-10-03 10:53:07,918
+alter table accounts_ebayplus_accounts add index FK8499D95DD01EC05A (ebayPlusAccounts_accountID), add constraint FK8499D95DD01EC05A foreign key (ebayPlusAccounts_accountID) references ebayplus_accounts (accountID)
+
+[INFO ] 2013-10-03 10:53:08,583
+schema export complete
+
+[INFO ] 2013-10-03 10:53:08,586
+cleaning up connection pool: jdbc:mysql://localhost:3306/ebayplus
+
+[DEBUG] 2013-10-03 10:53:08,592
+Validator not present in classpath, ignoring event listener registration
+
+[DEBUG] 2013-10-03 10:53:08,600
+Search not present in classpath, ignoring event listener registration.
+
+[INFO ] 2013-10-03 10:53:08,600
+Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+
+[DEBUG] 2013-10-03 10:53:08,600
+Preparing to build session factory with filters : {}
+
+[DEBUG] 2013-10-03 10:53:08,600
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:53:08,600
+Process hbm files
+
+[DEBUG] 2013-10-03 10:53:08,601
+Process annotated classes
+
+[DEBUG] 2013-10-03 10:53:08,601
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:53:08,601
+processing extends queue
+
+[DEBUG] 2013-10-03 10:53:08,601
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:53:08,601
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:53:08,601
+processing association property references
+
+[DEBUG] 2013-10-03 10:53:08,601
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:53:08,601
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:53:08,602
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[INFO ] 2013-10-03 10:53:08,610
+Using Hibernate built-in connection pool (not for production use!)
+
+[INFO ] 2013-10-03 10:53:08,610
+Hibernate connection pool size: 20
+
+[INFO ] 2013-10-03 10:53:08,610
+autocommit mode: false
+
+[INFO ] 2013-10-03 10:53:08,611
+using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/ebayplus
+
+[INFO ] 2013-10-03 10:53:08,611
+connection properties: {user=root, password=}
+
+[DEBUG] 2013-10-03 10:53:08,611
+opening new JDBC connection
+
+[INFO ] 2013-10-03 10:53:08,631
+cleaning up connection pool: jdbc:mysql://localhost:3306/ebayplus
+
+[DEBUG] 2013-10-03 10:53:08,651
+created connection to: jdbc:mysql://localhost:3306/ebayplus, Isolation Level: 4
+
+[INFO ] 2013-10-03 10:53:08,652
+RDBMS: MySQL, version: 5.6.12-log
+
+[INFO ] 2013-10-03 10:53:08,652
+JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )
+
+[INFO ] 2013-10-03 10:53:08,666
+Using dialect: org.hibernate.dialect.MySQLDialect
+
+[INFO ] 2013-10-03 10:53:08,668
+Using default transaction strategy (direct JDBC transactions)
+
+[INFO ] 2013-10-03 10:53:08,671
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+
+[INFO ] 2013-10-03 10:53:08,671
+Automatic flush during beforeCompletion(): disabled
+
+[INFO ] 2013-10-03 10:53:08,671
+Automatic session close at end of transaction: disabled
+
+[INFO ] 2013-10-03 10:53:08,671
+JDBC batch size: 15
+
+[INFO ] 2013-10-03 10:53:08,671
+JDBC batch updates for versioned data: disabled
+
+[INFO ] 2013-10-03 10:53:08,672
+Scrollable result sets: enabled
+
+[DEBUG] 2013-10-03 10:53:08,672
+Wrap result sets: disabled
+
+[INFO ] 2013-10-03 10:53:08,672
+JDBC3 getGeneratedKeys(): enabled
+
+[INFO ] 2013-10-03 10:53:08,672
+Connection release mode: auto
+
+[INFO ] 2013-10-03 10:53:08,673
+Maximum outer join fetch depth: 2
+
+[INFO ] 2013-10-03 10:53:08,673
+Default batch fetch size: 1
+
+[INFO ] 2013-10-03 10:53:08,673
+Generate SQL with comments: disabled
+
+[INFO ] 2013-10-03 10:53:08,673
+Order SQL updates by primary key: disabled
+
+[INFO ] 2013-10-03 10:53:08,673
+Order SQL inserts for batching: disabled
+
+[INFO ] 2013-10-03 10:53:08,673
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+
+[INFO ] 2013-10-03 10:53:08,676
+Using ASTQueryTranslatorFactory
+
+[INFO ] 2013-10-03 10:53:08,676
+Query language substitutions: {}
+
+[INFO ] 2013-10-03 10:53:08,676
+JPA-QL strict compliance: disabled
+
+[INFO ] 2013-10-03 10:53:08,676
+Second-level cache: enabled
+
+[INFO ] 2013-10-03 10:53:08,677
+Query cache: disabled
+
+[INFO ] 2013-10-03 10:53:08,682
+Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+
+[INFO ] 2013-10-03 10:53:08,682
+Cache provider: org.hibernate.cache.NoCacheProvider
+
+[INFO ] 2013-10-03 10:53:08,683
+Optimize cache for minimal puts: disabled
+
+[INFO ] 2013-10-03 10:53:08,683
+Structured second-level cache entries: disabled
+
+[INFO ] 2013-10-03 10:53:08,695
+Statistics: disabled
+
+[INFO ] 2013-10-03 10:53:08,695
+Deleted entity synthetic identifier rollback: disabled
+
+[INFO ] 2013-10-03 10:53:08,695
+Default entity-mode: pojo
+
+[INFO ] 2013-10-03 10:53:08,695
+Named query checking : enabled
+
+[INFO ] 2013-10-03 10:53:08,745
+building session factory
+
+[DEBUG] 2013-10-03 10:53:08,748
+Session factory constructed with filter configurations : {}
+
+[DEBUG] 2013-10-03 10:53:08,748
+instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=false, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/ebayplus, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, hbm2ddl.auto=create, sun.boot.class.path=C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\classes, user.country.format=IL, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_03-b05, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, user.name=lior.ginsberg, user.language.format=he, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, user.language=en, sun.boot.library.path=C:\Program Files\Java\jre7\bin, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.7.0_03, user.timezone=Europe/Athens, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jre7\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1255, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=US, connection.url=jdbc:mysql://localhost:3306/ebayplus, java.home=C:\Program Files\Java\jre7, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=, java.vm.version=22.1-b02, hibernate.connection.password=, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.script=, user.home=C:\Users\lior.ginsberg, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=create, java.library.path=C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_03\bin;C:\Program Files (x86)\Apache\apache-maven-3.0.4-bin\apache-maven-3.0.4\\bin;C:\Users\daniel-s\android-sdks\tools;;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 51679 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test test.DAOTests:addAccountWithEbayAccount, java.class.path=C:\git_local\SecretProject\build\classes;C:\git_local\SecretProject\WebContent\WEB-INF\lib\FastInfoset.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\activation.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\antlr-2.7.6.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\attributes.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\cglib-2.2.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\commons-collections-3.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\dom4j-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ebaycalls.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ebaysdkcore.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\ejb3-persistence.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\helper.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate-annotations.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate-commons-annotations.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\hibernate3.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\http.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jakarta-oro-2.0.8.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\javassist-3.9.0.GA.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-impl.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxb-xjc.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-rt.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jaxws-tools.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr173_api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr181-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jsr250-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\jta-1.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\log4j-1.2.16.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\mimepull.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\mysql-connector-java-5.1.18-bin.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\resolver.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\saaj-api.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\saaj-impl.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\serializer.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\sjsxp.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\slf4j-api-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\slf4j-log4j12-1.6.1.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\stax-ex.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\streambuffer.jar;C:\git_local\SecretProject\WebContent\WEB-INF\lib\xalan.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\annotations-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-ant.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-ha.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina-tribes.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\catalina.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\ecj-4.2.2.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\el-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jasper-el.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jasper.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\jsp-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\servlet-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-api.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-coyote.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-dbcp.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-es.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-fr.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-i18n-ja.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-jdbc.jar;C:\Program Files (x86)\Apache\apache-tomcat-7.0.42\lib\tomcat-util.jar;C:\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;C:\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;/C:/eclipse/configuration/org.eclipse.osgi/bundles/358/1/.cp/;/C:/eclipse/configuration/org.eclipse.osgi/bundles/357/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, sun.cpu.endian=little, sun.os.patch.level=, java.io.tmpdir=C:\Users\LIOR~1.GIN\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\git_local\SecretProject, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, cache.provider_class=org.hibernate.cache.NoCacheProvider, file.encoding=Cp1255, java.specification.version=1.7, hibernate.show_sql=false}
+
+[DEBUG] 2013-10-03 10:53:08,917
+Static SQL for entity: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:53:08,918
+ Version select: select accountID from accounts where accountID =?
+
+[DEBUG] 2013-10-03 10:53:08,918
+ Snapshot select: select account_.accountID, account_.password as password0_, account_.username as username0_ from accounts account_ where account_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,918
+ Insert 0: insert into accounts (password, username, accountID) values (?, ?, ?)
+
+[DEBUG] 2013-10-03 10:53:08,918
+ Update 0: update accounts set password=?, username=? where accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,918
+ Delete 0: delete from accounts where accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,918
+ Identity insert: insert into accounts (password, username) values (?, ?)
+
+[DEBUG] 2013-10-03 10:53:08,925
+Static SQL for entity: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[DEBUG] 2013-10-03 10:53:08,925
+ Version select: select accountID from ebayplus_accounts where accountID =?
+
+[DEBUG] 2013-10-03 10:53:08,925
+ Snapshot select: select ebayplusac_.accountID, ebayplusac_.accountAdmin as accountA2_1_, ebayplusac_.accountAlias as accountA3_1_, ebayplusac_.accountColor as accountC4_1_, ebayplusac_.accountName as accountN5_1_, ebayplusac_.accountSession as accountS6_1_, ebayplusac_.accountSession_exp as accountS7_1_, ebayplusac_.accountStatus as accountS8_1_, ebayplusac_.accountToken as accountT9_1_, ebayplusac_.accountToken_exp as account10_1_ from ebayplus_accounts ebayplusac_ where ebayplusac_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,925
+ Insert 0: insert into ebayplus_accounts (accountAdmin, accountAlias, accountColor, accountName, accountSession, accountSession_exp, accountStatus, accountToken, accountToken_exp, accountID) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+[DEBUG] 2013-10-03 10:53:08,925
+ Update 0: update ebayplus_accounts set accountAdmin=?, accountAlias=?, accountColor=?, accountName=?, accountSession=?, accountSession_exp=?, accountStatus=?, accountToken=?, accountToken_exp=? where accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,926
+ Delete 0: delete from ebayplus_accounts where accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,926
+ Identity insert: insert into ebayplus_accounts (accountAdmin, accountAlias, accountColor, accountName, accountSession, accountSession_exp, accountStatus, accountToken, accountToken_exp) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+[DEBUG] 2013-10-03 10:53:08,933
+Static SQL for collection: com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts
+
+[DEBUG] 2013-10-03 10:53:08,933
+ Row insert: insert into accounts_ebayplus_accounts (accounts_accountID, ebayPlusAccounts_accountID) values (?, ?)
+
+[DEBUG] 2013-10-03 10:53:08,933
+ Row update: update accounts_ebayplus_accounts set ebayPlusAccounts_accountID=? where accounts_accountID=? and ebayPlusAccounts_accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,933
+ Row delete: delete from accounts_ebayplus_accounts where accounts_accountID=? and ebayPlusAccounts_accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,933
+ One-shot delete: delete from accounts_ebayplus_accounts where accounts_accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,958
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,959
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,959
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_0_, account0_.password as password0_0_, account0_.username as username0_0_ from accounts account0_ where account0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:53:08,959
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_0_, account0_.password as password0_0_, account0_.username as username0_0_ from accounts account0_ where account0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:53:08,959
+Static select for entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_0_, account0_.password as password0_0_, account0_.username as username0_0_ from accounts account0_ where account0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:53:08,969
+Static select for action ACTION_MERGE on entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,969
+Static select for action ACTION_REFRESH on entity com.ebayplus.webapp.hibernate.entities.Account: select account0_.accountID as accountID0_1_, account0_.password as password0_1_, account0_.username as username0_1_, ebayplusac1_.accounts_accountID as accounts1_3_, ebayplusac2_.accountID as ebayPlus2_3_, ebayplusac2_.accountID as accountID1_0_, ebayplusac2_.accountAdmin as accountA2_1_0_, ebayplusac2_.accountAlias as accountA3_1_0_, ebayplusac2_.accountColor as accountC4_1_0_, ebayplusac2_.accountName as accountN5_1_0_, ebayplusac2_.accountSession as accountS6_1_0_, ebayplusac2_.accountSession_exp as accountS7_1_0_, ebayplusac2_.accountStatus as accountS8_1_0_, ebayplusac2_.accountToken as accountT9_1_0_, ebayplusac2_.accountToken_exp as account10_1_0_ from accounts account0_ left outer join accounts_ebayplus_accounts ebayplusac1_ on account0_.accountID=ebayplusac1_.accounts_accountID left outer join ebayplus_accounts ebayplusac2_ on ebayplusac1_.ebayPlusAccounts_accountID=ebayplusac2_.accountID where account0_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,972
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,972
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,973
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:53:08,973
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:53:08,973
+Static select for entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=? for update
+
+[DEBUG] 2013-10-03 10:53:08,973
+Static select for action ACTION_MERGE on entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,974
+Static select for action ACTION_REFRESH on entity com.ebayplus.webapp.hibernate.entities.EbayPlusAccount: select ebayplusac0_.accountID as accountID1_0_, ebayplusac0_.accountAdmin as accountA2_1_0_, ebayplusac0_.accountAlias as accountA3_1_0_, ebayplusac0_.accountColor as accountC4_1_0_, ebayplusac0_.accountName as accountN5_1_0_, ebayplusac0_.accountSession as accountS6_1_0_, ebayplusac0_.accountSession_exp as accountS7_1_0_, ebayplusac0_.accountStatus as accountS8_1_0_, ebayplusac0_.accountToken as accountT9_1_0_, ebayplusac0_.accountToken_exp as account10_1_0_ from ebayplus_accounts ebayplusac0_ where ebayplusac0_.accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,978
+Static select for collection com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts: select ebayplusac0_.accounts_accountID as accounts1_1_, ebayplusac0_.ebayPlusAccounts_accountID as ebayPlus2_1_, ebayplusac1_.accountID as accountID1_0_, ebayplusac1_.accountAdmin as accountA2_1_0_, ebayplusac1_.accountAlias as accountA3_1_0_, ebayplusac1_.accountColor as accountC4_1_0_, ebayplusac1_.accountName as accountN5_1_0_, ebayplusac1_.accountSession as accountS6_1_0_, ebayplusac1_.accountSession_exp as accountS7_1_0_, ebayplusac1_.accountStatus as accountS8_1_0_, ebayplusac1_.accountToken as accountT9_1_0_, ebayplusac1_.accountToken_exp as account10_1_0_ from accounts_ebayplus_accounts ebayplusac0_ left outer join ebayplus_accounts ebayplusac1_ on ebayplusac0_.ebayPlusAccounts_accountID=ebayplusac1_.accountID where ebayplusac0_.accounts_accountID=?
+
+[DEBUG] 2013-10-03 10:53:08,981
+initializing class SessionFactoryObjectFactory
+
+[DEBUG] 2013-10-03 10:53:08,982
+registered: 8a818110417d4e4901417d4e5a730000 (unnamed)
+
+[INFO ] 2013-10-03 10:53:08,982
+Not binding factory to JNDI, no JNDI name configured
+
+[DEBUG] 2013-10-03 10:53:08,982
+instantiated session factory
+
+[DEBUG] 2013-10-03 10:53:08,983
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:53:08,983
+Process hbm files
+
+[DEBUG] 2013-10-03 10:53:08,983
+Process annotated classes
+
+[DEBUG] 2013-10-03 10:53:08,983
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:53:08,983
+processing extends queue
+
+[DEBUG] 2013-10-03 10:53:08,983
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:53:08,984
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:53:08,984
+processing association property references
+
+[DEBUG] 2013-10-03 10:53:08,984
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:53:08,984
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:53:08,984
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[DEBUG] 2013-10-03 10:53:08,985
+Execute first pass mapping processing
+
+[DEBUG] 2013-10-03 10:53:08,986
+Process hbm files
+
+[DEBUG] 2013-10-03 10:53:08,986
+Process annotated classes
+
+[DEBUG] 2013-10-03 10:53:08,986
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] 2013-10-03 10:53:08,986
+processing extends queue
+
+[DEBUG] 2013-10-03 10:53:08,986
+processing collection mappings
+
+[DEBUG] 2013-10-03 10:53:08,986
+processing native query and ResultSetMapping mappings
+
+[DEBUG] 2013-10-03 10:53:08,986
+processing association property references
+
+[DEBUG] 2013-10-03 10:53:08,986
+processing foreign key constraints
+
+[DEBUG] 2013-10-03 10:53:08,986
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.Account
+
+[DEBUG] 2013-10-03 10:53:08,986
+resolving reference to class: com.ebayplus.webapp.hibernate.entities.EbayPlusAccount
+
+[INFO ] 2013-10-03 10:53:08,988
+Running hbm2ddl schema export
+
+[DEBUG] 2013-10-03 10:53:08,990
+import file not found: /import.sql
+
+[INFO ] 2013-10-03 10:53:08,990
+exporting generated schema to database
+
+[DEBUG] 2013-10-03 10:53:08,990
+alter table accounts_ebayplus_accounts drop foreign key FK8499D95D70A2FF3A
+
+[DEBUG] 2013-10-03 10:53:09,060
+alter table accounts_ebayplus_accounts drop foreign key FK8499D95DD01EC05A
+
+[DEBUG] 2013-10-03 10:53:09,170
+drop table if exists accounts
+
+[DEBUG] 2013-10-03 10:53:09,299
+drop table if exists accounts_ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:53:09,381
+drop table if exists ebayplus_accounts
+
+[DEBUG] 2013-10-03 10:53:09,500
+create table accounts (accountID integer not null auto_increment, password varchar(255), username varchar(255), primary key (accountID), unique (username))
+
+[DEBUG] 2013-10-03 10:53:09,848
+create table accounts_ebayplus_accounts (accounts_accountID integer not null, ebayPlusAccounts_accountID integer not null, unique (ebayPlusAccounts_accountID))
+
+[DEBUG] 2013-10-03 10:53:10,101
+create table ebayplus_accounts (accountID integer not null auto_increment, accountAdmin varchar(255), accountAlias varchar(255), accountColor varchar(255), accountName varchar(255), accountSession varchar(255), accountSession_exp datetime, accountStatus varchar(255), accountToken Text, accountToken_exp datetime, primary key (accountID), unique (accountName, accountAlias))
+
+[DEBUG] 2013-10-03 10:53:10,485
+alter table accounts_ebayplus_accounts add index FK8499D95D70A2FF3A (accounts_accountID), add constraint FK8499D95D70A2FF3A foreign key (accounts_accountID) references accounts (accountID)
+
+[DEBUG] 2013-10-03 10:53:11,254
+alter table accounts_ebayplus_accounts add index FK8499D95DD01EC05A (ebayPlusAccounts_accountID), add constraint FK8499D95DD01EC05A foreign key (ebayPlusAccounts_accountID) references ebayplus_accounts (accountID)
+
+[INFO ] 2013-10-03 10:53:12,053
+schema export complete
+
+[DEBUG] 2013-10-03 10:53:12,061
+Checking 0 named HQL queries
+
+[DEBUG] 2013-10-03 10:53:12,061
+Checking 0 named SQL queries
+
+[DEBUG] 2013-10-03 10:53:12,128
+opened session at timestamp: 13807867920
+
+[DEBUG] 2013-10-03 10:53:12,130
+begin
+
+[DEBUG] 2013-10-03 10:53:12,130
+opening JDBC connection
+
+[DEBUG] 2013-10-03 10:53:12,131
+current autocommit status: false
+
+[DEBUG] 2013-10-03 10:53:12,154
+executing identity-insert immediately
+
+[DEBUG] 2013-10-03 10:53:12,155
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:53:12,155
+insert into accounts (password, username) values (?, ?)
+
+[DEBUG] 2013-10-03 10:53:12,196
+Natively generated identity: 1
+
+[DEBUG] 2013-10-03 10:53:12,196
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:53:12,202
+executing identity-insert immediately
+
+[DEBUG] 2013-10-03 10:53:12,202
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:53:12,202
+insert into ebayplus_accounts (accountAdmin, accountAlias, accountColor, accountName, accountSession, accountSession_exp, accountStatus, accountToken, accountToken_exp) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+
+[DEBUG] 2013-10-03 10:53:12,217
+Natively generated identity: 1
+
+[DEBUG] 2013-10-03 10:53:12,217
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:53:12,218
+commit
+
+[DEBUG] 2013-10-03 10:53:12,219
+processing flush-time cascades
+
+[DEBUG] 2013-10-03 10:53:12,220
+dirty checking collections
+
+[DEBUG] 2013-10-03 10:53:12,226
+Collection found: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1], was: [<unreferenced>] (initialized)
+
+[DEBUG] 2013-10-03 10:53:12,229
+Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+
+[DEBUG] 2013-10-03 10:53:12,229
+Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+
+[DEBUG] 2013-10-03 10:53:12,230
+listing entities:
+
+[DEBUG] 2013-10-03 10:53:12,231
+com.ebayplus.webapp.hibernate.entities.EbayPlusAccount{accountID=1, accountName=my name, accountStatus=WATING_FOR_ACTIVATION, accountColor=red, accountAlias=liorAlias, accountToken_exp=null, accountSession_exp=2013-10-03 10:53:03, accountSession=null, accountAdmin=zivGin@gmail.com, accountToken=null}
+
+[DEBUG] 2013-10-03 10:53:12,232
+com.ebayplus.webapp.hibernate.entities.Account{accountID=1, username=test, ebayPlusAccounts=[com.ebayplus.webapp.hibernate.entities.EbayPlusAccount#1], password=testpass}
+
+[DEBUG] 2013-10-03 10:53:12,232
+Inserting collection: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1]
+
+[DEBUG] 2013-10-03 10:53:12,236
+about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+
+[DEBUG] 2013-10-03 10:53:12,237
+insert into accounts_ebayplus_accounts (accounts_accountID, ebayPlusAccounts_accountID) values (?, ?)
+
+[DEBUG] 2013-10-03 10:53:12,239
+done inserting collection: 1 rows inserted
+
+[DEBUG] 2013-10-03 10:53:12,240
+Executing batch size: 1
+
+[DEBUG] 2013-10-03 10:53:12,251
+about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+
+[DEBUG] 2013-10-03 10:53:12,293
+committed JDBC Connection
+
+[DEBUG] 2013-10-03 10:53:12,293
+aggressively releasing JDBC connection
+
+[DEBUG] 2013-10-03 10:53:12,293
+releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+
+[DEBUG] 2013-10-03 10:53:12,293
+processing flush-time cascades
+
+[DEBUG] 2013-10-03 10:53:12,294
+dirty checking collections
+
+[DEBUG] 2013-10-03 10:53:12,294
+Collection found: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1], was: [com.ebayplus.webapp.hibernate.entities.Account.ebayPlusAccounts#1] (initialized)
+
+[DEBUG] 2013-10-03 10:53:12,294
+Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+
+[DEBUG] 2013-10-03 10:53:12,294
+Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+
+[DEBUG] 2013-10-03 10:53:12,295
+listing entities:
+
+[DEBUG] 2013-10-03 10:53:12,295
+com.ebayplus.webapp.hibernate.entities.EbayPlusAccount{accountID=1, accountName=my name, accountStatus=WATING_FOR_ACTIVATION, accountColor=red, accountAlias=liorAlias, accountToken_exp=null, accountSession_exp=2013-10-03 10:53:03, accountSession=null, accountAdmin=zivGin@gmail.com, accountToken=null}
+
+[DEBUG] 2013-10-03 10:53:12,295
+com.ebayplus.webapp.hibernate.entities.Account{accountID=1, username=test, ebayPlusAccounts=[com.ebayplus.webapp.hibernate.entities.EbayPlusAccount#1], password=testpass}
+
+[DEBUG] 2013-10-03 10:53:12,295
+aggressively releasing JDBC connection
+
