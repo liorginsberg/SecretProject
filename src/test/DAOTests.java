@@ -1,12 +1,8 @@
 package test;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNotSame;
-
 import java.util.Date;
 import java.util.List;
 
-import org.hibernate.exception.ConstraintViolationException;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
