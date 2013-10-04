@@ -85,8 +85,8 @@ $(document).ready(function () {
 	            dataType: "text",
 	            success: function (responseText) {
 	                $("#content").html(responseText);
-	 
-	                initAccounts();
+	                //TODO - init accounts javascript
+	                //initAccounts();
 	            }
 	
 	        });
