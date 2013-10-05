@@ -8,7 +8,8 @@
     <description></description>
     <display-name>MainServlet</display-name>
     <servlet-name>MainServlet</servlet-name>
-    <servlet-class>com.ebayplus.webapp.seervlets.MainServlet</servlet-class>
+    <servlet-class>com.ebayplus.webapp.servlets.MainServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
     <servlet-name>MainServlet</servlet-name>
@@ -54,4 +55,17 @@
     <servlet-name>SessionServlet</servlet-name>
     <url-pattern>/SessionServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AccountManagerServlet</display-name>
+    <servlet-name>AccountManagerServlet</servlet-name>
+    <servlet-class>com.ebayplus.webapp.servlets.AccountManagerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountManagerServlet</servlet-name>
+    <url-pattern>/AccountManagerServlet</url-pattern>
+  </servlet-mapping>
+  <listener>
+  	<listener-class>com.ebayplus.webapp.listeners.FetchTokensListener</listener-class>
+  </listener>
 </web-app>

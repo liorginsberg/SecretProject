@@ -13,13 +13,13 @@ import javax.servlet.http.HttpServletResponse;
 public class MainServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-    /**
-     * Default constructor. 
-     */
-    public MainServlet() {
-        // TODO Auto-generated constructor stub
-    }
-
+	@Override
+	public void init() throws ServletException {
+		super.init();
+		System.out.println("init() for "+ this.getClass().getSimpleName() + " was called");
+		
+	}
+	
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */

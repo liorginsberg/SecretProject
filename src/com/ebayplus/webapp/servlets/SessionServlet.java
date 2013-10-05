@@ -14,12 +14,11 @@ import javax.servlet.http.HttpSession;
 public class SessionServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	/**
-	 * @see HttpServlet#HttpServlet()
-	 */
-	public SessionServlet() {
-		super();
-		// TODO Auto-generated constructor stub
+	@Override
+	public void init() throws ServletException {
+		super.init();
+		System.out.println("init() for "+ this.getClass().getSimpleName() + " was called");
+				
 	}
 
 	/**

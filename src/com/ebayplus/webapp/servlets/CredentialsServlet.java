@@ -22,21 +22,13 @@ import com.ebayplus.webapp.ebay.Global;
  */
 public class CredentialsServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public CredentialsServlet() {
-    	
-    	System.out.println("servlet created!");
-    	
-    	ScheduledExecutorService exec = Executors.newSingleThreadScheduledExecutor();
-    	exec.scheduleAtFixedRate(new Runnable() {
-    	  public void run() {
-    	    System.out.println("fethcing tokens");
-    	  }
-    	}, 0, 5, TimeUnit.SECONDS);
-    }
+	
+	@Override
+	public void init() throws ServletException {
+		super.init();
+		System.out.println("init() for "+ this.getClass().getSimpleName() + " was called");
+				
+	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)

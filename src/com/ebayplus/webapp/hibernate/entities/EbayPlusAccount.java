@@ -37,7 +37,7 @@ public class EbayPlusAccount {
 	private Date accountToken_exp;
 	@Column
 	@Enumerated(EnumType.STRING)
-	private AccountStatusType accountStatus = AccountStatusType.WATING_FOR_ACTIVATION;
+	private AccountStatusType accountStatus = AccountStatusType.WAITING_FOR_ACTIVATION;
 	
 	//@ManyToOne - for invese relationship
 	//private Account account;

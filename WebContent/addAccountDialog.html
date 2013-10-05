@@ -3,20 +3,55 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="js/spectrum.js"></script>
+<link href="css/spectrum.css" rel="stylesheet" type="text/css" />
 <link href="css/index.css" rel="stylesheet" type="text/css" />
 <link href="css/accounts.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+	
+	$("#accountColor").spectrum({
+		color:"#FF0000"
+	});
+	
+	$("#saveAccount").click(function(e) {
+		
+		var alias = $("#accountAlias").val();
+		var admin = $("#accountAdmin").val();
+		var  color = $("#accountColor").spectrum("get");
+		color = color.toHexString();
+		console.log("get color: " + color);
+		
+		
+        $.ajax({
+			type : "POST",
+			url : "AccountManagerServlet",
+			data : "accountID=1&accountAlias=" + alias +"&accountAdmin=" + admin + "&accountColor=" + color,
+			dataType : "text",
+			success : function(responseText) {
+				console.log(response);
+			}
+		});
+    });
+});
+
+</script>
+
 </head>
-
-
-
 <body>
 <div id="overlay" style="display:block">
     <div id="add_account_dialog">
-    <h3 id="title">Add Account</h3>
-   <form action="CredentialsServlet" method="post" name="add_account" target="_blank">
-   <input id="customAccountName" type="text" name="action" />
-   <input type="submit" value="Add" />
-   </form>
+        <h3 id="title">Add Account</h3>
+        Account's Alias: <input type="text" id="accountAlias"/><br />
+        Account's Administrator: <input type="text" id="accountAdmin"/><br />
+        Account's color: <input type="text" class="basic" id="accountColor"/><br />
+		<br />
+        <input type="button" id="cancelAccount" value="Cancel" style="display: inline;"/>
+        <input type="button" id="saveAccount" value="Save" style="display: inline;"/>
     </div>
 </div>
 </body>
