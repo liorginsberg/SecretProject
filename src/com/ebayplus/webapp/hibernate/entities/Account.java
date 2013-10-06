@@ -29,6 +29,18 @@ public class Account {
 	private String password;
 	@OneToMany(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
 	private List<EbayPlusAccount> ebayPlusAccounts = new ArrayList<EbayPlusAccount>();
+	
+	
+	public EbayPlusAccount getEbayPlusAccountByID(int eBayAccountID) {
+		EbayPlusAccount eBayPlusAccount = null;
+		for (EbayPlusAccount eBayAccount : ebayPlusAccounts) {
+			if(eBayAccount.getAccountID() == eBayAccountID) {
+				eBayPlusAccount = eBayAccount;
+			}
+		}
+		return eBayPlusAccount;
+		
+	}
 
 	public int getAccountID() {
 		return accountID;

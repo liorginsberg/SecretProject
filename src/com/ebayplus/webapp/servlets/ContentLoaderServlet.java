@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.ebay.sdk.eBayAccount;
 import com.ebayplus.webapp.ebay.Global;
 import com.ebayplus.webapp.hibernate.dao.AccountsDAO;
 import com.ebayplus.webapp.hibernate.entities.Account;
@@ -44,6 +45,7 @@ public class ContentLoaderServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 
+		System.out.println("ContentLoaderServlet dopost");
 		String contentID = request.getParameter("contentID");
 
 		if (contentID.equals("settingsContent")) {
@@ -72,7 +74,7 @@ public class ContentLoaderServlet extends HttpServlet {
 			response.getWriter().print(buffer);
 			
 		} else if (contentID.equals("accountsContent")) {
-
+			System.out.println("[DEBUG] contentID = accountsContent");
 			AccountsDAO accountsDAO = AccountsDAO.getDAO();
 			Account account = accountsDAO.getAccountById(1);
 			
@@ -98,19 +100,7 @@ public class ContentLoaderServlet extends HttpServlet {
 				sb.append("<td>" + accountItem.getAccountStatus().toString() + "</td>");
 				
 				if(accountItem.getAccountStatus() == AccountStatusType.WAITING_FOR_ACTIVATION) {
-					String encodedSesssionIDString = URLEncoder.encode(
-					accountItem.getAccountSession(), "UTF-8");
-		
-			
-					String runame = Global.getProperty("runame");
-					String signInURL = Global.getProperty("ebaySignInUrl");
-					//String ruParams = "params=" + runame + "-"
-						//	+"Production";
-	
-					sb.append("<td><a href='credentials.jsp'>Activate</a></td>");
-				
-					System.out.println("<a href='"+signInURL + "&runame=" + runame
-					+ "&SessID=" + encodedSesssionIDString+"'>Activate</a>");
+					sb.append("<td><a href='credentials.jsp?accountID="+ account.getAccountID() +"&eBayPlusAccountID="+ accountItem.getAccountID() +"'>Activate</a></td>");
 				}
 				sb.append("</tr></table></div>");
 			}

@@ -48,15 +48,15 @@ public class FetchTokensListener implements ServletContextListener {
 			String signInURL = Global.getProperty("ebaySignInUrl");
 			String apiServerUrl = Global.getProperty("ebayAPIUrl");
 			
-			System.out.println("fetching tokens...");
+			//System.out.println("fetching tokens...");
 			AccountsDAO accountsDAO = AccountsDAO.getDAO();
 			List<Account> accounts = accountsDAO.getAllAccounts();
 			for (Account account : accounts) {
 				List<EbayPlusAccount> ebayPlusAccounts = account.getEbayPlusAccounts();
 				for (EbayPlusAccount ebayPlusAccount : ebayPlusAccounts) {
-					System.out.println("fetching for accout with id " + account.getAccountID() + "and ebayAccountID = " + ebayPlusAccount.getAccountID());
+					//System.out.println("fetching for accout with id " + account.getAccountID() + "and ebayAccountID = " + ebayPlusAccount.getAccountID());
 					if(ebayPlusAccount.getAccountStatus() == AccountStatusType.WAITING_FOR_ACTIVATION) {
-						System.out.println("status is wating");
+						//System.out.println("status is wating");
 						String sessionID = ebayPlusAccount.getAccountSession();
 						if(sessionID != null) {
 							ApiContext apiContext = Global.createApiContext(devId, appId,
@@ -73,7 +73,6 @@ public class FetchTokensListener implements ServletContextListener {
 								tokenExp = apiCall.getHardExpirationTime();
 							} catch (Exception e) {
 								System.out.println(e.getMessage());
-								System.out.println("user didnt register the app at ebay yet");
 							}
 							if(token != null) {
 								ebayPlusAccount.setAccountToken(token);
@@ -83,7 +82,7 @@ public class FetchTokensListener implements ServletContextListener {
 								accountsDAO.updateAccount(account);
 							}
 						}else {
-							System.out.println("No sessionID !!!");
+							//System.out.println("No sessionID !!!");
 						}
 					}
 				}
