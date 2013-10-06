@@ -80,7 +80,7 @@ public class AccountManagerServlet extends HttpServlet {
 		EbayPlusAccount e = new EbayPlusAccount();
 		e.setAccountAdmin(request.getParameter("accountAdmin"));
 		e.setAccountAlias(request.getParameter("accountAlias"));
-		e.setAccountColor(request.getParameter("accountCplor"));
+		e.setAccountColor(request.getParameter("accountColor"));
 		e.setAccountSession(sessionID);
 		e.setAccountStatus(AccountStatusType.WAITING_FOR_ACTIVATION);
 	
@@ -88,6 +88,8 @@ public class AccountManagerServlet extends HttpServlet {
 		account.getEbayPlusAccounts().add(e);
 		
 		accountsDAO.updateAccount(account);
+		
+		response.getWriter().print("Success");
 	}
 
 }

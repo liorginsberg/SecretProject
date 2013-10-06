@@ -1,34 +1,12 @@
-$(document).ready(function(e) {
+//called after accounts content injected into the content
+function bindAccountsJS() {
 	
-	$.ajax({
-			type : "POST",
-			url : "ContentLoaderServlet",
-			data : "contentID=accountsContent",
-			dataType : "text",
-			success : function(responseText) {
-				$("#content").html(responseText);
-				initSpectrumWidgets();
-			}
-	});
-});
-
+	$(".basic").spectrum();
 	
-
-function initSpectrumWidgets() {
-	$(".basic").spectrum({
-		color : "#f00",
-		change : function(color) {
-
-		}
-	});
-}
-
-
-// TODO - for later use
-function initAccounts() {
-	$("#add_account_button").click(function() {
+	$("#addAccountBtn").click(function() {
 
 		$("#overlay").css("display", "block");
+		
 		$.ajax({
 			type : "POST",
 			url : "ContentLoaderServlet",
@@ -36,9 +14,40 @@ function initAccounts() {
 			dataType : "text",
 			success : function(responseText) {
 				$("#overlay").html(responseText);
-				initAddAcountDialog();
+				bindAccountDialogJS();
 			}
 		});
 	});
+}
+
+//called after add account dialog injected to screen
+function bindAccountDialogJS() {
+	$("#accountColor").spectrum({
+		color:"#FF0000"
+	});
+	
+	$("#saveAccount").click(function(e) {
+		
+		var alias = $("#accountAlias").val();
+		var admin = $("#accountAdmin").val();
+		var  color = $("#accountColor").spectrum("get");
+		color = color.toHexString();
+		console.log("get color: " + color);
+		
+		
+        $.ajax({
+			type : "POST",
+			url : "AccountManagerServlet",
+			data : "accountID=1&accountAlias=" + alias +"&accountAdmin=" + admin + "&accountColor=" + color,
+			dataType : "text",
+			success : function(responseText) {
+				console.log(responseText);
+				if(responseText == "Success") {
+					$("#addAccountDialog").remove();
+					$("#overlay").css("display", "none");
+				}
+			}
+		});
+    });
 }
 

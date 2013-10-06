@@ -95,12 +95,12 @@ public class ContentLoaderServlet extends HttpServlet {
 				sb.append("<td>" + accountItem.getAccountAdmin() + "</td></tr>");
 				sb.append("<tr><td>Lable Color:</td>");
 				//TODO - handle color from db to the widget
-				sb.append("<td><input type='text' " + "class='basic'/></td></tr>");
+				sb.append("<td><input type='text' " + "class='basic' value='"+ accountItem.getAccountColor() +"'/></td></tr>");
 				sb.append("<tr><td>Status:</td>");
 				sb.append("<td>" + accountItem.getAccountStatus().toString() + "</td>");
 				
 				if(accountItem.getAccountStatus() == AccountStatusType.WAITING_FOR_ACTIVATION) {
-					sb.append("<td><a href='credentials.jsp?accountID="+ account.getAccountID() +"&eBayPlusAccountID="+ accountItem.getAccountID() +"'>Activate</a></td>");
+					sb.append("<td><a target='_blank' href='credentials.jsp?accountID="+ account.getAccountID() +"&eBayPlusAccountID="+ accountItem.getAccountID() +"'>Activate</a></td>");
 				}
 				sb.append("</tr></table></div>");
 			}
@@ -109,7 +109,14 @@ public class ContentLoaderServlet extends HttpServlet {
 			response.getWriter().print(sb.toString());
 		
 		} else if(contentID.equals("addAccountDialog")) {
-			String buffer = "<div id='add_account_dialog'></div>";
+			String buffer = "<div id='addAccountDialog'>" +
+							"<h3 id='title'>Add Account</h3>" +
+					        "Account's Alias: <input type='text' id='accountAlias'><br>" +
+					        "Account's Administrator: <input type='text' id='accountAdmin'><br>" +
+					        "Account's color: <input type='text' class='basic' id='accountColor'><br>" +
+					        "<input type='button' id='cancelAccount' value='Cancel' style='display: inline;'>" +
+					        "<input type='button' id='saveAccount' value='Save' style='display: inline;'></div>";
+	
 			response.getWriter().print(buffer);
 		}
 	}
