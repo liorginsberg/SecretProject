@@ -49,9 +49,15 @@ function bindAccountDialogJS() {
 							$("#overlay").css("display", "none");
 							updateAccountContent();
 
-						
 						}
 					}
 				});
 			});
+	$("#cancelAccount").click(function(e) {
+
+		$("#addAccountDialog").remove();
+		$("#overlay").css("display", "none");
+		$(".sp-container").last().remove();
+
+	});
 }
