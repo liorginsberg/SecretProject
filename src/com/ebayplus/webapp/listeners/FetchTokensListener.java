@@ -27,7 +27,9 @@ public class FetchTokensListener implements ServletContextListener {
 	class FetchTokens implements Runnable {
 
 		public void run() {
+
 			System.out.println("virtualy checking for available tokens");
+
 //			String devId = Global.getProperty("devId");
 //			String certId = Global.getProperty("certId");
 //			String appId = Global.getProperty("appId");
