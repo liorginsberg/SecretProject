@@ -1,28 +1,11 @@
 package com.ebayplus.webapp.listeners;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.List;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-
-import com.ebay.sdk.ApiContext;
-import com.ebay.sdk.ApiCredential;
-import com.ebay.sdk.ApiException;
-import com.ebay.sdk.ApiLogging;
-import com.ebay.sdk.SdkException;
-import com.ebay.sdk.call.FetchTokenCall;
-import com.ebay.sdk.call.GetUserCall;
-import com.ebay.soap.eBLBaseComponents.UserType;
-import com.ebayplus.webapp.ebay.Global;
-import com.ebayplus.webapp.hibernate.dao.AccountsDAO;
-import com.ebayplus.webapp.hibernate.entities.Account;
-import com.ebayplus.webapp.hibernate.entities.AccountStatusType;
-import com.ebayplus.webapp.hibernate.entities.EbayPlusAccount;
 
 public class FetchTokensListener implements ServletContextListener {
 
@@ -45,7 +28,8 @@ public class FetchTokensListener implements ServletContextListener {
 
 		public void run() {
 
-			System.out.println("fetching tokens...");
+			System.out.println("virtualy checking for available tokens");
+
 //			String devId = Global.getProperty("devId");
 //			String certId = Global.getProperty("certId");
 //			String appId = Global.getProperty("appId");
