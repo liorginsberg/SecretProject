@@ -91,6 +91,8 @@ $(document).ready(function() {
 
 			});
 
+		}else if(id == "nav_item_messages") {
+			//TODO - call ajax for content and init all javascript required
 		}
 	});
 

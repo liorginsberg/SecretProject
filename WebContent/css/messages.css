@@ -1,0 +1,83 @@
+#messagesLibraries {
+	padding: 20px;
+	float: left;
+	width: 200px;
+	height: 400px;
+	background:#FFFFFF;
+}
+#messagesContent {
+	background: #D5D5D5;
+	overflow: hidden;
+	height: auto;
+	overflow: hidden;
+	box-shadow: inset 0 0 18px #000000;
+	-moz-box-shadow: inset 0;
+}
+#messagesLibraries p {
+	margin-left:15px;
+}
+#messagesList {
+	list-style-type:none;
+	padding:20px;
+	margin:0px;
+}
+.messageItem {
+	margin:auto;
+	width:95%;
+	padding-top:10px;
+	position:relative;
+}
+.messageItemleft {
+	width:60px;
+	text-align: center
+}
+.messageItemMiddle {
+	width:80%;
+	border-bottom:1px solid #333;
+}
+.messageItemRight {
+	width:100px;
+	border-bottom:1px solid #333;
+	position:relative;
+	padding:5px;
+}
+.messageTable {
+	border-collapse:collapse;
+}
+.messageItem p {
+	margin:0;
+	padding:0;
+}
+.messageSubject {
+	font-size:15px;
+	color:#444444;
+ padding-left:10px:
+}
+.messageSender {
+	font-size:18px;
+	color:#000000;
+}
+.accountLabel {
+	background:#00FF00;
+	font-size:11px;
+	padding:0;
+	margin:0;
+	border-bottom: 2px solid #00FF00;
+}
+.messageTime {
+	position:absolute;
+	color:#333333;
+	top:0px;
+	right:0px;
+}
+.messageFlag {
+	width:28px;
+	height:28px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+.messageRepleid {
+	width:32px;
+	height:32px;
+}
