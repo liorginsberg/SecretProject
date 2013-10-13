@@ -35,6 +35,7 @@
 	margin:auto;
 	width:95%;
 	padding-top:10px;
+	position:relative;
 }
 .messageItem p {
 	margin:0;
@@ -43,11 +44,18 @@
 .messageSubject {
 	font-size:15px;
 	color:#444444;
-	padding-left:10px:
+ padding-left:10px:
 }
 .messageSender {
 	font-size:18px;
 	color:#000000;
+}
+.accountLabel {
+	background:#00FF00;
+	font-size:11px;
+	padding:0;
+	margin:0;
+	border-bottom: 1px solid #00FF00;
 }
 </style>
 <script type="text/javascript">
@@ -71,57 +79,17 @@ $(document).ready(function(e) {
 <div id="messagesContent">
     <ul id="messagesList">
         <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
-        <li class="messageItem" id="1234">
-            <p class="messageSender">LiorDec</p>
-            <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
-            <span class="accountLabe" style="background:#00FF00;font-size:11px;padding:0;margin:0;border-bottom: 1px solid #00FF00;">diddlydeal</span> </li>
+        	<div class="messageItemRight">
+            </div>
+            <div class="messageItemMiddle">
+                <p class="messageSender">LiorDec</p>
+                <p class="messageSubject">lior send you a message with the following id tag and cannot...</p>
+                <span class="accountLabel">diddlydeal</span>
+            </div>
+            <div class="messageItemRight">
+            </div>
+        </li>
+  
     </ul>
 </div>
 <div class="clear"></div>
