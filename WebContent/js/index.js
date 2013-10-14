@@ -92,7 +92,21 @@ $(document).ready(function() {
 			});
 
 		}else if(id == "nav_item_messages") {
-			//TODO - call ajax for content and init all javascript required
+			$.ajax({
+				type : "POST",
+				url : "ContentLoaderServlet",
+				data : "contentID=messagesContent",
+				dataType : "text",
+				success : function(responseText) {
+					$("#content").html(responseText);
+					bindMessagesJS();
+//					var h = $("#settings_content").css("height");
+//					$("#settings_side_menu").css("height", h);
+//					console.log("about to call...");
+					//initSettings();
+				}
+
+			});
 		}
 	});
 

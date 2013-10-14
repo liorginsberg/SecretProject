@@ -11,7 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.ebay.sdk.ApiContext;
 import com.ebay.sdk.ApiCredential;
+import com.ebay.sdk.ApiException;
 import com.ebay.sdk.ApiLogging;
+import com.ebay.sdk.SdkException;
 import com.ebay.sdk.eBayAccount;
 import com.ebay.sdk.call.GetMyMessagesCall;
 import com.ebay.soap.eBLBaseComponents.DetailLevelCodeType;
@@ -131,8 +133,6 @@ public class ContentLoaderServlet extends HttpServlet {
 			String devId = Global.getProperty("devId");
 			String certId = Global.getProperty("certId");
 			String appId = Global.getProperty("appId");
-			String runame = Global.getProperty("runame");
-			String signInURL = Global.getProperty("ebaySignInUrl");
 			String apiServerUrl = Global.getProperty("ebayAPIUrl");
 	
 			ApiContext apiContext = Global.createApiContext(devId, appId, certId, apiServerUrl);
@@ -148,6 +148,18 @@ public class ContentLoaderServlet extends HttpServlet {
 			
 			getMyMessagesCall.addDetailLevel(DetailLevelCodeType.RETURN_HEADERS);
 			
+			try {
+				getMyMessagesCall.getMyMessages();
+			} catch (ApiException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SdkException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			MyMessagesMessageType[] messages = getMyMessagesCall.getReturnedMyMessages();
 			
 			
@@ -163,7 +175,7 @@ public class ContentLoaderServlet extends HttpServlet {
 				sb.append("'><table class='messageTable'><tbody><tr>"
 						+"<td class='messageItemleft'>");
 				String repliedVisibility = message.isReplied() ? "visible": "hidden";
-				sb.append("<img class='messageRepleid' src='images/replied.png' style='display:"+ repliedVisibility + "></td>");
+				sb.append("<img class='messageRepleid' src='images/replied.png' style='display:"+ repliedVisibility + "'></td>");
 				sb.append("<td class='messageItemMiddle'><p class='messageSender'>");
 				sb.append(message.getSender());
 				sb.append("</p></p><p class='messageSubject'>");
